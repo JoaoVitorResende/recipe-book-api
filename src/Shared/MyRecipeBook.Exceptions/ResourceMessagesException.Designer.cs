@@ -61,11 +61,38 @@ namespace MyRecipeBook.Exceptions {
         }
         
         /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a The email can&apos;t be empty.
+        /// </summary>
+        public static string EMAIL_EMPTY {
+            get {
+                return ResourceManager.GetString("EMAIL_EMPTY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a The email is in wrong format.
+        /// </summary>
+        public static string EMAIL_WRONG_FORMAT {
+            get {
+                return ResourceManager.GetString("EMAIL_WRONG_FORMAT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a The name can&apos;t be empty..
         /// </summary>
         public static string NAME_EMPTY {
             get {
                 return ResourceManager.GetString("NAME_EMPTY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a The password is not long enought.
+        /// </summary>
+        public static string PASSWORD_NOT_GREAT_THEN_SIX_CHARACTERS {
+            get {
+                return ResourceManager.GetString("PASSWORD_NOT_GREAT_THEN_SIX_CHARACTERS", resourceCulture);
             }
         }
     }
