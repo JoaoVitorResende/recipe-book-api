@@ -129,4 +129,7 @@
   <data name="PASSWORD_NOT_GREAT_THEN_SIX_CHARACTERS" xml:space="preserve">
     <value>Le mot de passe comporte moins de six caractères</value>
   </data>
+  <data name="UNKOWN_ERROR" xml:space="preserve">
+    <value>Erreur inconnue</value>
+  </data>
 </root>

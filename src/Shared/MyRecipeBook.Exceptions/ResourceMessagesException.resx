@@ -129,4 +129,7 @@
   <data name="PASSWORD_NOT_GREAT_THEN_SIX_CHARACTERS" xml:space="preserve">
     <value>The password is not long enought</value>
   </data>
+  <data name="UNKOWN_ERROR" xml:space="preserve">
+    <value>Unkonw error</value>
+  </data>
 </root>
