@@ -95,5 +95,14 @@ namespace MyRecipeBook.Exceptions {
                 return ResourceManager.GetString("PASSWORD_NOT_GREAT_THEN_SIX_CHARACTERS", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Unkonw error.
+        /// </summary>
+        public static string UNKOWN_ERROR {
+            get {
+                return ResourceManager.GetString("UNKOWN_ERROR", resourceCulture);
+            }
+        }
     }
 }
