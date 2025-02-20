@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "E:\\Git\\recipe-book-api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F3F33243-78FD-4C0C-85A7-40E121F25E62}|src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj|e:\\git\\recipe-book-api\\src\\backend\\myrecipebook.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3F33243-78FD-4C0C-85A7-40E121F25E62}|src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj|solutionrelative:src\\backend\\myrecipebook.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{540BAC00-30D7-4B46-AF5D-4E41DC9F62A5}|src\\Backend\\MyRecipeBook.Application\\MyRecipeBook.Application.csproj|e:\\git\\recipe-book-api\\src\\backend\\myrecipebook.application\\usecases\\user\\register\\registeruserusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{540BAC00-30D7-4B46-AF5D-4E41DC9F62A5}|src\\Backend\\MyRecipeBook.Application\\MyRecipeBook.Application.csproj|solutionrelative:src\\backend\\myrecipebook.application\\usecases\\user\\register\\registeruserusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3F33243-78FD-4C0C-85A7-40E121F25E62}|src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj|e:\\git\\recipe-book-api\\src\\backend\\myrecipebook.api\\filters\\exceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3F33243-78FD-4C0C-85A7-40E121F25E62}|src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj|solutionrelative:src\\backend\\myrecipebook.api\\filters\\exceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F068F922-A99D-4689-A0BD-A918E5EBCD15}|src\\Backend\\MyRecipeBook.Domain\\MyRecipeBook.Domain.csproj|e:\\git\\recipe-book-api\\src\\backend\\myrecipebook.domain\\entities\\entitiebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F068F922-A99D-4689-A0BD-A918E5EBCD15}|src\\Backend\\MyRecipeBook.Domain\\MyRecipeBook.Domain.csproj|solutionrelative:src\\backend\\myrecipebook.domain\\entities\\entitiebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3F33243-78FD-4C0C-85A7-40E121F25E62}|src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj|e:\\git\\recipe-book-api\\src\\backend\\myrecipebook.api\\middleware\\culturemiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3F33243-78FD-4C0C-85A7-40E121F25E62}|src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj|solutionrelative:src\\backend\\myrecipebook.api\\middleware\\culturemiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{540BAC00-30D7-4B46-AF5D-4E41DC9F62A5}|src\\Backend\\MyRecipeBook.Application\\MyRecipeBook.Application.csproj|e:\\git\\recipe-book-api\\src\\backend\\myrecipebook.application\\services\\automapper\\automapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{540BAC00-30D7-4B46-AF5D-4E41DC9F62A5}|src\\Backend\\MyRecipeBook.Application\\MyRecipeBook.Application.csproj|solutionrelative:src\\backend\\myrecipebook.application\\services\\automapper\\automapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CultureMiddleware.cs",
-              "DocumentMoniker": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBook.API\\Middleware\\CultureMiddleware.cs",
-              "RelativeDocumentMoniker": "src\\Backend\\MyRecipeBook.API\\Middleware\\CultureMiddleware.cs",
-              "ToolTip": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBook.API\\Middleware\\CultureMiddleware.cs",
-              "RelativeToolTip": "src\\Backend\\MyRecipeBook.API\\Middleware\\CultureMiddleware.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
+              "Title": "AutoMapping.cs",
+              "DocumentMoniker": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBook.Application\\Services\\AutoMapper\\AutoMapping.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\MyRecipeBook.Application\\Services\\AutoMapper\\AutoMapping.cs",
+              "ToolTip": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBook.Application\\Services\\AutoMapper\\AutoMapping.cs",
+              "RelativeToolTip": "src\\Backend\\MyRecipeBook.Application\\Services\\AutoMapper\\AutoMapping.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T21:15:53.11Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ExceptionFilter.cs",
-              "DocumentMoniker": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBook.API\\Filters\\ExceptionFilter.cs",
-              "RelativeDocumentMoniker": "src\\Backend\\MyRecipeBook.API\\Filters\\ExceptionFilter.cs",
-              "ToolTip": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBook.API\\Filters\\ExceptionFilter.cs",
-              "RelativeToolTip": "src\\Backend\\MyRecipeBook.API\\Filters\\ExceptionFilter.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAABpAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T21:14:06.653Z",
+              "WhenOpened": "2025-02-20T21:30:05.467Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBook.API\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "src\\Backend\\MyRecipeBook.API\\Controllers\\UserController.cs",
-              "ToolTip": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBook.API\\Controllers\\UserController.cs",
-              "RelativeToolTip": "src\\Backend\\MyRecipeBook.API\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAxAAAAAAAAAA==",
+              "Title": "RegisterUserUseCase.cs",
+              "DocumentMoniker": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBook.Application\\UseCases\\User\\Register\\RegisterUserUseCase.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\MyRecipeBook.Application\\UseCases\\User\\Register\\RegisterUserUseCase.cs",
+              "ToolTip": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBook.Application\\UseCases\\User\\Register\\RegisterUserUseCase.cs",
+              "RelativeToolTip": "src\\Backend\\MyRecipeBook.Application\\UseCases\\User\\Register\\RegisterUserUseCase.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T21:13:35.456Z",
+              "WhenOpened": "2025-02-20T20:09:29.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EntitieBase.cs",
+              "DocumentMoniker": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBook.Domain\\Entities\\EntitieBase.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\MyRecipeBook.Domain\\Entities\\EntitieBase.cs",
+              "ToolTip": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBook.Domain\\Entities\\EntitieBase.cs",
+              "RelativeToolTip": "src\\Backend\\MyRecipeBook.Domain\\Entities\\EntitieBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T20:08:14.144Z",
               "EditorCaption": ""
             }
           ]
