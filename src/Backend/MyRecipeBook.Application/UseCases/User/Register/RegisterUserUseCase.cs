@@ -3,18 +3,22 @@ using MyRecipeBook.Application.Services.AutoMapper;
 using MyRecipeBook.Application.Services.Cryptography;
 using MyRecipeBook.Communication.Requests;
 using MyRecipeBook.Communication.Responses;
+using MyRecipeBook.Domain.Repositories.User;
 using MyRecipeBook.Exceptions.ExceptionBase;
 
 namespace MyRecipeBook.Application.UseCases.User.Register
 {
     public class RegisterUserUseCase
     {
-        public ResponseRegistredUserJson Execute(RequestRegisterUserJson request)
+        private readonly IUserWriteOnlyRepository _writeOnlyRepository;
+        private readonly IUserReadOnlyRepository _readOnlyRepository;
+        public async Task<ResponseRegistredUserJson> Execute(RequestRegisterUserJson request)
         {
             var passwordEncripter = new PasswordEncryption();
             Validate(request);
             var user = AutoMapUser(request).Map<Domain.Entities.User>(request);
             user.Password = passwordEncripter.Encript(request.Password);
+            await _writeOnlyRepository.Add(user);
             return new ResponseRegistredUserJson 
             {
                 Name  = request.Name
