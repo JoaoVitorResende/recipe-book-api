@@ -17,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyRecipeBook.Application", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyRecipeBook.Domain", "src\Backend\MyRecipeBook.Domain\MyRecipeBook.Domain.csproj", "{F068F922-A99D-4689-A0BD-A918E5EBCD15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyRecipeBool.Infrastructure", "src\Backend\MyRecipeBool.Infrastructure\MyRecipeBool.Infrastructure.csproj", "{F32ACDF6-D86A-48A9-93CF-C5C2EDC6DC14}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyRecipeBook.Infrastructure", "src\Backend\MyRecipeBool.Infrastructure\MyRecipeBook.Infrastructure.csproj", "{F32ACDF6-D86A-48A9-93CF-C5C2EDC6DC14}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyRecipeBook.Communication", "src\Shared\MyRecipeBook.Communication\MyRecipeBook.Communication.csproj", "{FDF224B7-DFC9-493F-AD8F-4206A3BC2326}"
 EndProject
