@@ -1,5 +1,4 @@
 ﻿using AutoMapper;
-using MyRecipeBook.Application.Services.AutoMapper;
 using MyRecipeBook.Application.Services.Cryptography;
 using MyRecipeBook.Communication.Requests;
 using MyRecipeBook.Communication.Responses;
@@ -8,20 +7,29 @@ using MyRecipeBook.Exceptions.ExceptionBase;
 
 namespace MyRecipeBook.Application.UseCases.User.Register
 {
-    public class RegisterUserUseCase
+    public class RegisterUserUseCase : IRegisterUserUseCase
     {
         private readonly IUserWriteOnlyRepository _writeOnlyRepository;
         private readonly IUserReadOnlyRepository _readOnlyRepository;
+        private readonly IMapper _mapper;
+        private readonly PasswordEncryption _passwordEncripter;
+
+        public RegisterUserUseCase(IUserWriteOnlyRepository writeOnlyRepository, IUserReadOnlyRepository readOnlyRepository, IMapper mapper, PasswordEncryption passwordEncripter)
+        {
+            _writeOnlyRepository = writeOnlyRepository;
+            _readOnlyRepository = readOnlyRepository;
+            _mapper = mapper;
+            _passwordEncripter = passwordEncripter;
+        }
         public async Task<ResponseRegistredUserJson> Execute(RequestRegisterUserJson request)
         {
-            var passwordEncripter = new PasswordEncryption();
             Validate(request);
-            var user = AutoMapUser(request).Map<Domain.Entities.User>(request);
-            user.Password = passwordEncripter.Encript(request.Password);
+            var user = _mapper.Map<Domain.Entities.User>(request);
+            user.Password = _passwordEncripter.Encript(request.Password);
             await _writeOnlyRepository.Add(user);
-            return new ResponseRegistredUserJson 
+            return new ResponseRegistredUserJson
             {
-                Name  = request.Name
+                Name = request.Name
             };
         }
         private void Validate(RequestRegisterUserJson request)
@@ -34,6 +42,5 @@ namespace MyRecipeBook.Application.UseCases.User.Register
                 throw new ErrorOnValidationException(errorsMessages);
             }
         }
-        private IMapper AutoMapUser(RequestRegisterUserJson request) => new AutoMapper.MapperConfiguration(options => { options.AddProfile(new AutoMapping()); }).CreateMapper();
     }
 }
