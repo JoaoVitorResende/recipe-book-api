@@ -1,9 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.Extensions.DependencyInjection;
+using MyRecipeBook.Domain.Repositories.UnityOfWork;
 using MyRecipeBook.Domain.Repositories.User;
 using MyRecipeBook.Infrastructure.DataAccess;
 using MyRecipeBook.Infrastructure.DataAccess.Repositories;
+using MyRecipeBook.Infrastructure.DataAccess.UnityOfWork;
 
 namespace MyRecipeBook.Infrastructure
 {
@@ -13,6 +14,7 @@ namespace MyRecipeBook.Infrastructure
         {
             AddRepositories(services);
             AddDbContext(services);
+            SaveRepositories(services);
         }
         private static void AddDbContext(IServiceCollection services)
         {
@@ -28,5 +30,6 @@ namespace MyRecipeBook.Infrastructure
             services.AddScoped<IUserWriteOnlyRepository, UserRepository>();
             services.AddScoped<IUserReadOnlyRepository, UserRepository>();
         }
+        private static void SaveRepositories(IServiceCollection services) => services.AddScoped<IUnityOfWork, UnityOfWork>();
     }
 }
