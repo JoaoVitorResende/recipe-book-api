@@ -129,6 +129,9 @@
   <data name="PASSWORD_NOT_GREAT_THEN_SIX_CHARACTERS" xml:space="preserve">
     <value>A senha está com menos de seis caracteres</value>
   </data>
+  <data name="REPEATED_EMAIL" xml:space="preserve">
+    <value>O email já existe</value>
+  </data>
   <data name="UNKOWN_ERROR" xml:space="preserve">
     <value>Erro Desconhecido</value>
   </data>
