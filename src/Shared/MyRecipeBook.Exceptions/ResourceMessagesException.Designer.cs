@@ -97,6 +97,15 @@ namespace MyRecipeBook.Exceptions {
         }
         
         /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a The email already exists..
+        /// </summary>
+        public static string REPEATED_EMAIL {
+            get {
+                return ResourceManager.GetString("REPEATED_EMAIL", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Unkonw error.
         /// </summary>
         public static string UNKOWN_ERROR {

@@ -4,6 +4,7 @@ using MyRecipeBook.Communication.Requests;
 using MyRecipeBook.Communication.Responses;
 using MyRecipeBook.Domain.Repositories.UnityOfWork;
 using MyRecipeBook.Domain.Repositories.User;
+using MyRecipeBook.Exceptions;
 using MyRecipeBook.Exceptions.ExceptionBase;
 
 namespace MyRecipeBook.Application.UseCases.User.Register
@@ -26,7 +27,7 @@ namespace MyRecipeBook.Application.UseCases.User.Register
         }
         public async Task<ResponseRegistredUserJson> Execute(RequestRegisterUserJson request)
         {
-            Validate(request);
+            await Validate(request);
             var user = _mapper.Map<Domain.Entities.User>(request);
             user.Password = _passwordEncripter.Encript(request.Password);
             await _writeOnlyRepository.Add(user);
@@ -36,10 +37,15 @@ namespace MyRecipeBook.Application.UseCases.User.Register
                 Name = request.Name
             };
         }
-        private void Validate(RequestRegisterUserJson request)
+        private async Task Validate(RequestRegisterUserJson request)
         {
             var validator = new RegisterUserValidator();
             var result = validator.Validate(request);
+            var emailExists = await _readOnlyRepository.ExistsUserWithEmail(request.Email);
+            if(emailExists)
+            {
+                result.Errors.Add(new FluentValidation.Results.ValidationFailure(string.Empty,ResourceMessagesException.REPEATED_EMAIL));
+            }
             if (!result.IsValid)
             {
                 var errorsMessages = result.Errors.Select(error => error.ErrorMessage).ToList();
