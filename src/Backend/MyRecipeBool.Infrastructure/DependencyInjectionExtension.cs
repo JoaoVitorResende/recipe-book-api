@@ -6,6 +6,7 @@ using MyRecipeBook.Domain.Repositories.User;
 using MyRecipeBook.Infrastructure.DataAccess;
 using MyRecipeBook.Infrastructure.DataAccess.Repositories;
 using MyRecipeBook.Infrastructure.DataAccess.UnityOfWork;
+using MyRecipeBook.Infrastructure.Extensions;
 
 namespace MyRecipeBook.Infrastructure
 {
@@ -19,7 +20,7 @@ namespace MyRecipeBook.Infrastructure
         }
         private static void AddDbContext(IServiceCollection services, IConfiguration configuration)
         {
-            var connectionString = configuration.GetConnectionString("Connection");
+            var connectionString = ConnectionStringExtension.GetConnectionStringExtension(configuration);
             var serverVersion = new MySqlServerVersion(new Version(8, 0, 41));
             services.AddDbContext<MyrecipeBookDbContext>(dbContextOptions =>
             {
