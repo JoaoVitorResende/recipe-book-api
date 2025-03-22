@@ -33,7 +33,9 @@ app.MapControllers();
 MigrateDataBase();
 
 app.Run();
+
 void MigrateDataBase()
 {
-    DataBaseMigrations.Migrate(builder.Configuration.GetConnectionStringExtension());
+    var serviceScope = app.Services.GetRequiredService<IServiceScopeFactory>().CreateScope();
+    DataBaseMigrations.Migrate(builder.Configuration.GetConnectionStringExtension(), serviceScope.ServiceProvider);
 }

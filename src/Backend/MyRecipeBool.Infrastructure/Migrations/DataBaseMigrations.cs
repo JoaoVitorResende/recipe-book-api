@@ -1,14 +1,17 @@
 ﻿using System.Data.Common;
 using Dapper;
+using FluentMigrator.Runner;
+using Microsoft.Extensions.DependencyInjection;
 using MySqlConnector;
 
 namespace MyRecipeBook.Infrastructure.Migrations
 {
     public static class DataBaseMigrations
     {
-        public static void Migrate(string connectionString)
+        public static void Migrate(string connectionString, IServiceProvider provider)
         {
             EnsureDataBaseCreated(connectionString);
+            MigrationDataBase(provider);
         }
         private static void EnsureDataBaseCreated(string connectionString)
         {
@@ -29,6 +32,12 @@ namespace MyRecipeBook.Infrastructure.Migrations
             var records = dbConnection.Query("SELECT * FROM INFORMATION_SCHEMA.SCHEMATA WHERE SCHEMA_NAME = @name", parameters);
             if (!records.Any())
                 dbConnection.Execute($" CREATE DATABASE {dataBase}");
+        }
+        private static void MigrationDataBase(IServiceProvider provider)
+        {
+            var runner = provider.GetRequiredService<IMigrationRunner>();
+            runner.ListMigrations();
+            runner.MigrateUp();
         }
     }
 }
