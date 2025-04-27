@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyRecipeBook.Communication"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyRecipeBook.Exceptions", "src\Shared\MyRecipeBook.Exceptions\MyRecipeBook.Exceptions.csproj", "{381F8419-676D-4ECB-AB24-A2D8BC091BE5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Validator.Test", "tests\Validator.Test\Validator.Test.csproj", "{21895B38-0341-40E5-9E76-CB2B75CDA19B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonTestsUtilities", "tests\CommonTestsUtilities\CommonTestsUtilities.csproj", "{7312FADB-ABA9-4DC4-A3E5-B6100C471E02}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +57,14 @@ Global
 		{381F8419-676D-4ECB-AB24-A2D8BC091BE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{381F8419-676D-4ECB-AB24-A2D8BC091BE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{381F8419-676D-4ECB-AB24-A2D8BC091BE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21895B38-0341-40E5-9E76-CB2B75CDA19B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21895B38-0341-40E5-9E76-CB2B75CDA19B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21895B38-0341-40E5-9E76-CB2B75CDA19B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21895B38-0341-40E5-9E76-CB2B75CDA19B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7312FADB-ABA9-4DC4-A3E5-B6100C471E02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7312FADB-ABA9-4DC4-A3E5-B6100C471E02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7312FADB-ABA9-4DC4-A3E5-B6100C471E02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7312FADB-ABA9-4DC4-A3E5-B6100C471E02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -66,5 +78,7 @@ Global
 		{F32ACDF6-D86A-48A9-93CF-C5C2EDC6DC14} = {61E6E803-E5C2-4602-8686-2B2BEF5E8941}
 		{FDF224B7-DFC9-493F-AD8F-4206A3BC2326} = {12BBD172-2619-47BF-B2EE-2A2B0239B5B8}
 		{381F8419-676D-4ECB-AB24-A2D8BC091BE5} = {12BBD172-2619-47BF-B2EE-2A2B0239B5B8}
+		{21895B38-0341-40E5-9E76-CB2B75CDA19B} = {08A58101-0BCE-4FF9-89BA-7B539B12CBA4}
+		{7312FADB-ABA9-4DC4-A3E5-B6100C471E02} = {08A58101-0BCE-4FF9-89BA-7B539B12CBA4}
 	EndGlobalSection
 EndGlobal
