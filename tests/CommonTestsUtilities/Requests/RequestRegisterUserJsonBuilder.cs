@@ -1,5 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-using Bogus;
+﻿using Bogus;
 using MyRecipeBook.Communication.Requests;
 namespace CommonTestsUtilities.Requests
 {
@@ -10,7 +9,7 @@ namespace CommonTestsUtilities.Requests
             return new Faker<RequestRegisterUserJson>()
             .RuleFor(user => user.Name, (faker) => faker.Person.FirstName)
             .RuleFor(user => user.Email, (faker, user) => faker.Internet.Email(user.Name))
-            .RuleFor(user => user.Name, (faker) => faker.Internet.Password());
+            .RuleFor(user => user.Password, (faker) => faker.Internet.Password(8, false));
         }
     }
 }

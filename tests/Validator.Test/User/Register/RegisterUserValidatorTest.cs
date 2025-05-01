@@ -11,6 +11,7 @@ namespace Validator.Test.User.Register
             var validator = new RegisterUserValidator();
             var request = RequestRegisterUserJsonBuilder.Build();
             var result = validator.Validate(request);
+            Assert.True(result.IsValid);
         }
     }
 }
