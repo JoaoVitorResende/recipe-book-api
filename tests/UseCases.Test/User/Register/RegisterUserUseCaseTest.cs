@@ -17,14 +17,22 @@ namespace UseCases.Test.User.Register
             Assert.NotNull(result);
             Assert.Equal(result.Name, request.Name);
         }
-        private RegisterUserUseCase CreateUseCase()
+        [Fact]
+        public async Task ErrorEmailAlreadyRegistred()
+        {
+            var request = RequestRegisterUserJsonBuilder.Build();
+            var useCase = CreateUseCase(request.Email);
+        }
+        private RegisterUserUseCase CreateUseCase(string? email = null)
         {
             var mapper = MapperBuilder.Build();
             var encripter = PasswordEncripterBuilder.Build();
             var WriteRepository = UserWriteOnlyRepositoryBuilder.Build();
             var unityOfWork = UnityOfWorkBuilder.Build();
-            var readRepository = new UserReadOnlyRepositoryBuilder().Build();
-            return new RegisterUserUseCase(WriteRepository, readRepository, mapper, encripter, unityOfWork);
+            var readRepositoryBuilder = new UserReadOnlyRepositoryBuilder();
+            if(!string.IsNullOrEmpty(email))
+                readRepositoryBuilder.ExistsUserWithEmail(email);
+            return new RegisterUserUseCase(WriteRepository, readRepositoryBuilder.Build(), mapper, encripter, unityOfWork);
         }
     }
 }

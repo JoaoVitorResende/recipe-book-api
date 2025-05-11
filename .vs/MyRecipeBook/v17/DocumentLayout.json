@@ -5,10 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7312FADB-ABA9-4DC4-A3E5-B6100C471E02}|tests\\CommonTestsUtilities\\CommonTestsUtilities.csproj|e:\\git\\recipe-book-api\\tests\\commontestsutilities\\repositories\\userreadonlyrepositorybuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7312FADB-ABA9-4DC4-A3E5-B6100C471E02}|tests\\CommonTestsUtilities\\CommonTestsUtilities.csproj|solutionrelative:tests\\commontestsutilities\\repositories\\userreadonlyrepositorybuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D643E103-1AF0-4418-A2DA-3942D6BD9948}|tests\\UseCases.Test\\UseCases.Test.csproj|e:\\git\\recipe-book-api\\tests\\usecases.test\\user\\register\\registeruserusecasetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D643E103-1AF0-4418-A2DA-3942D6BD9948}|tests\\UseCases.Test\\UseCases.Test.csproj|solutionrelative:tests\\usecases.test\\user\\register\\registeruserusecasetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,22 +24,9 @@
               "RelativeDocumentMoniker": "tests\\CommonTestsUtilities\\Repositories\\UserReadOnlyRepositoryBuilder.cs",
               "ToolTip": "E:\\Git\\recipe-book-api\\tests\\CommonTestsUtilities\\Repositories\\UserReadOnlyRepositoryBuilder.cs",
               "RelativeToolTip": "tests\\CommonTestsUtilities\\Repositories\\UserReadOnlyRepositoryBuilder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-10T15:29:37.638Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RegisterUserUseCaseTest.cs",
-              "DocumentMoniker": "E:\\Git\\recipe-book-api\\tests\\UseCases.Test\\User\\Register\\RegisterUserUseCaseTest.cs",
-              "RelativeDocumentMoniker": "tests\\UseCases.Test\\User\\Register\\RegisterUserUseCaseTest.cs",
-              "ToolTip": "E:\\Git\\recipe-book-api\\tests\\UseCases.Test\\User\\Register\\RegisterUserUseCaseTest.cs",
-              "RelativeToolTip": "tests\\UseCases.Test\\User\\Register\\RegisterUserUseCaseTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T20:17:57.429Z",
               "EditorCaption": ""
             }
           ]
