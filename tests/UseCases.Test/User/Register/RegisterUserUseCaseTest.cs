@@ -12,14 +12,19 @@ namespace UseCases.Test.User.Register
         public async Task Success()
         {
             var request = RequestRegisterUserJsonBuilder.Build();
-            var mapper = MapperBuilder.Build();
-            var encripter = PasswordEncripterBuilder.Build();
-            var WritteRepository = UserWriteOnlyRepositoryBuilder.Build();
-            var unityOfWork = UnityOfWorkBuilder.Build();
-            var useCase = new RegisterUserUseCase(encripter,mapper);
+            var useCase = CreateUseCase();
             var result = await useCase.Execute(request);
             Assert.NotNull(result);
             Assert.Equal(result.Name, request.Name);
+        }
+        private RegisterUserUseCase CreateUseCase()
+        {
+            var mapper = MapperBuilder.Build();
+            var encripter = PasswordEncripterBuilder.Build();
+            var WriteRepository = UserWriteOnlyRepositoryBuilder.Build();
+            var unityOfWork = UnityOfWorkBuilder.Build();
+            var readRepository = new UserReadOnlyRepositoryBuilder().Build();
+            return new RegisterUserUseCase(WriteRepository, readRepository, mapper, encripter, unityOfWork);
         }
     }
 }

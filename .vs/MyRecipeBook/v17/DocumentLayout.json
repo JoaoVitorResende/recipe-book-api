@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "E:\\Git\\recipe-book-api\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7312FADB-ABA9-4DC4-A3E5-B6100C471E02}|tests\\CommonTestsUtilities\\CommonTestsUtilities.csproj|e:\\git\\recipe-book-api\\tests\\commontestsutilities\\repositories\\userreadonlyrepositorybuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7312FADB-ABA9-4DC4-A3E5-B6100C471E02}|tests\\CommonTestsUtilities\\CommonTestsUtilities.csproj|solutionrelative:tests\\commontestsutilities\\repositories\\userreadonlyrepositorybuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D643E103-1AF0-4418-A2DA-3942D6BD9948}|tests\\UseCases.Test\\UseCases.Test.csproj|e:\\git\\recipe-book-api\\tests\\usecases.test\\user\\register\\registeruserusecasetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D643E103-1AF0-4418-A2DA-3942D6BD9948}|tests\\UseCases.Test\\UseCases.Test.csproj|solutionrelative:tests\\usecases.test\\user\\register\\registeruserusecasetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7312FADB-ABA9-4DC4-A3E5-B6100C471E02}|tests\\CommonTestsUtilities\\CommonTestsUtilities.csproj|e:\\git\\recipe-book-api\\tests\\commontestsutilities\\repositories\\unityofworkbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7312FADB-ABA9-4DC4-A3E5-B6100C471E02}|tests\\CommonTestsUtilities\\CommonTestsUtilities.csproj|solutionrelative:tests\\commontestsutilities\\repositories\\unityofworkbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{540BAC00-30D7-4B46-AF5D-4E41DC9F62A5}|src\\Backend\\MyRecipeBook.Application\\MyRecipeBook.Application.csproj|e:\\git\\recipe-book-api\\src\\backend\\myrecipebook.application\\usecases\\user\\register\\registeruserusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{540BAC00-30D7-4B46-AF5D-4E41DC9F62A5}|src\\Backend\\MyRecipeBook.Application\\MyRecipeBook.Application.csproj|solutionrelative:src\\backend\\myrecipebook.application\\usecases\\user\\register\\registeruserusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7312FADB-ABA9-4DC4-A3E5-B6100C471E02}|tests\\CommonTestsUtilities\\CommonTestsUtilities.csproj|e:\\git\\recipe-book-api\\tests\\commontestsutilities\\repositories\\userwriteonlyrepositorybuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7312FADB-ABA9-4DC4-A3E5-B6100C471E02}|tests\\CommonTestsUtilities\\CommonTestsUtilities.csproj|solutionrelative:tests\\commontestsutilities\\repositories\\userwriteonlyrepositorybuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RegisterUserUseCase.cs",
-              "DocumentMoniker": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBook.Application\\UseCases\\User\\Register\\RegisterUserUseCase.cs",
-              "RelativeDocumentMoniker": "src\\Backend\\MyRecipeBook.Application\\UseCases\\User\\Register\\RegisterUserUseCase.cs",
-              "ToolTip": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBook.Application\\UseCases\\User\\Register\\RegisterUserUseCase.cs",
-              "RelativeToolTip": "src\\Backend\\MyRecipeBook.Application\\UseCases\\User\\Register\\RegisterUserUseCase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "UserReadOnlyRepositoryBuilder.cs",
+              "DocumentMoniker": "E:\\Git\\recipe-book-api\\tests\\CommonTestsUtilities\\Repositories\\UserReadOnlyRepositoryBuilder.cs",
+              "RelativeDocumentMoniker": "tests\\CommonTestsUtilities\\Repositories\\UserReadOnlyRepositoryBuilder.cs",
+              "ToolTip": "E:\\Git\\recipe-book-api\\tests\\CommonTestsUtilities\\Repositories\\UserReadOnlyRepositoryBuilder.cs",
+              "RelativeToolTip": "tests\\CommonTestsUtilities\\Repositories\\UserReadOnlyRepositoryBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T22:16:00.034Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserWriteOnlyRepositoryBuilder.cs",
-              "DocumentMoniker": "E:\\Git\\recipe-book-api\\tests\\CommonTestsUtilities\\Repositories\\UserWriteOnlyRepositoryBuilder.cs",
-              "RelativeDocumentMoniker": "tests\\CommonTestsUtilities\\Repositories\\UserWriteOnlyRepositoryBuilder.cs",
-              "ToolTip": "E:\\Git\\recipe-book-api\\tests\\CommonTestsUtilities\\Repositories\\UserWriteOnlyRepositoryBuilder.cs",
-              "RelativeToolTip": "tests\\CommonTestsUtilities\\Repositories\\UserWriteOnlyRepositoryBuilder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T22:15:31.649Z",
+              "WhenOpened": "2025-05-10T15:29:37.638Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UnityOfWorkBuilder.cs",
-              "DocumentMoniker": "E:\\Git\\recipe-book-api\\tests\\CommonTestsUtilities\\Repositories\\UnityOfWorkBuilder.cs",
-              "RelativeDocumentMoniker": "tests\\CommonTestsUtilities\\Repositories\\UnityOfWorkBuilder.cs",
-              "ToolTip": "E:\\Git\\recipe-book-api\\tests\\CommonTestsUtilities\\Repositories\\UnityOfWorkBuilder.cs",
-              "RelativeToolTip": "tests\\CommonTestsUtilities\\Repositories\\UnityOfWorkBuilder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T22:10:32.148Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "RegisterUserUseCaseTest.cs",
               "DocumentMoniker": "E:\\Git\\recipe-book-api\\tests\\UseCases.Test\\User\\Register\\RegisterUserUseCaseTest.cs",
               "RelativeDocumentMoniker": "tests\\UseCases.Test\\User\\Register\\RegisterUserUseCaseTest.cs",
               "ToolTip": "E:\\Git\\recipe-book-api\\tests\\UseCases.Test\\User\\Register\\RegisterUserUseCaseTest.cs",
               "RelativeToolTip": "tests\\UseCases.Test\\User\\Register\\RegisterUserUseCaseTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T20:17:57.429Z",
               "EditorCaption": ""
