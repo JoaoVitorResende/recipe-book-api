@@ -10,7 +10,7 @@ namespace CommonTestsUtilities.Repositories
         public IUserReadOnlyRepository Build() => _repository.Object;
         public void ExistsUserWithEmail(string email)
         {
-            _repository.Setup(repository => repository.ExistsUserWithEmail(email)).Returns(true);
+            _repository.Setup(repository => repository.ExistsUserWithEmail(email)).ReturnsAsync(true);
         }
     }
 }
