@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "E:\\Git\\recipe-book-api\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{44FAE871-1B9B-40CB-96DC-A1CE5DBEB9D2}|tests\\WebApi.Test\\WebApi.Test.csproj|e:\\git\\recipe-book-api\\tests\\webapi.test\\customwebapplicationfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FAE871-1B9B-40CB-96DC-A1CE5DBEB9D2}|tests\\WebApi.Test\\WebApi.Test.csproj|solutionrelative:tests\\webapi.test\\customwebapplicationfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F33243-78FD-4C0C-85A7-40E121F25E62}|src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj|e:\\git\\recipe-book-api\\src\\backend\\myrecipebook.api\\appsettings.test.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F3F33243-78FD-4C0C-85A7-40E121F25E62}|src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj|solutionrelative:src\\backend\\myrecipebook.api\\appsettings.test.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7312FADB-ABA9-4DC4-A3E5-B6100C471E02}|tests\\CommonTestsUtilities\\CommonTestsUtilities.csproj|e:\\git\\recipe-book-api\\tests\\commontestsutilities\\cryptography\\passwordencripterbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7312FADB-ABA9-4DC4-A3E5-B6100C471E02}|tests\\CommonTestsUtilities\\CommonTestsUtilities.csproj|solutionrelative:tests\\commontestsutilities\\cryptography\\passwordencripterbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{44FAE871-1B9B-40CB-96DC-A1CE5DBEB9D2}|tests\\WebApi.Test\\WebApi.Test.csproj|e:\\git\\recipe-book-api\\tests\\webapi.test\\user\\register\\registerusertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44FAE871-1B9B-40CB-96DC-A1CE5DBEB9D2}|tests\\WebApi.Test\\WebApi.Test.csproj|solutionrelative:tests\\webapi.test\\user\\register\\registerusertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D643E103-1AF0-4418-A2DA-3942D6BD9948}|tests\\UseCases.Test\\UseCases.Test.csproj|e:\\git\\recipe-book-api\\tests\\usecases.test\\user\\register\\registeruserusecasetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D643E103-1AF0-4418-A2DA-3942D6BD9948}|tests\\UseCases.Test\\UseCases.Test.csproj|solutionrelative:tests\\usecases.test\\user\\register\\registeruserusecasetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3F33243-78FD-4C0C-85A7-40E121F25E62}|src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj|e:\\git\\recipe-book-api\\src\\backend\\myrecipebook.api\\middleware\\culturemiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3F33243-78FD-4C0C-85A7-40E121F25E62}|src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj|solutionrelative:src\\backend\\myrecipebook.api\\middleware\\culturemiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,38 +31,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CultureMiddleware.cs",
-              "DocumentMoniker": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBook.API\\Middleware\\CultureMiddleware.cs",
-              "RelativeDocumentMoniker": "src\\Backend\\MyRecipeBook.API\\Middleware\\CultureMiddleware.cs",
-              "ToolTip": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBook.API\\Middleware\\CultureMiddleware.cs",
-              "RelativeToolTip": "src\\Backend\\MyRecipeBook.API\\Middleware\\CultureMiddleware.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Title": "PasswordEncripterBuilder.cs",
+              "DocumentMoniker": "E:\\Git\\recipe-book-api\\tests\\CommonTestsUtilities\\Cryptography\\PasswordEncripterBuilder.cs",
+              "RelativeDocumentMoniker": "tests\\CommonTestsUtilities\\Cryptography\\PasswordEncripterBuilder.cs",
+              "ToolTip": "E:\\Git\\recipe-book-api\\tests\\CommonTestsUtilities\\Cryptography\\PasswordEncripterBuilder.cs",
+              "RelativeToolTip": "tests\\CommonTestsUtilities\\Cryptography\\PasswordEncripterBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T11:26:07.87Z",
+              "WhenOpened": "2025-05-25T11:57:01.386Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RegisterUserUseCaseTest.cs",
-              "DocumentMoniker": "E:\\Git\\recipe-book-api\\tests\\UseCases.Test\\User\\Register\\RegisterUserUseCaseTest.cs",
-              "RelativeDocumentMoniker": "tests\\UseCases.Test\\User\\Register\\RegisterUserUseCaseTest.cs",
-              "ToolTip": "E:\\Git\\recipe-book-api\\tests\\UseCases.Test\\User\\Register\\RegisterUserUseCaseTest.cs",
-              "RelativeToolTip": "tests\\UseCases.Test\\User\\Register\\RegisterUserUseCaseTest.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowA8AAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T21:14:15.642Z",
+              "Title": "appsettings.Test.json",
+              "DocumentMoniker": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBook.API\\appsettings.Test.json",
+              "RelativeDocumentMoniker": "src\\Backend\\MyRecipeBook.API\\appsettings.Test.json",
+              "ToolTip": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBook.API\\appsettings.Test.json",
+              "RelativeToolTip": "src\\Backend\\MyRecipeBook.API\\appsettings.Test.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-25T11:56:11.814Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CustomWebApplicationFactory.cs",
+              "DocumentMoniker": "E:\\Git\\recipe-book-api\\tests\\WebApi.Test\\CustomWebApplicationFactory.cs",
+              "RelativeDocumentMoniker": "tests\\WebApi.Test\\CustomWebApplicationFactory.cs",
+              "ToolTip": "E:\\Git\\recipe-book-api\\tests\\WebApi.Test\\CustomWebApplicationFactory.cs",
+              "RelativeToolTip": "tests\\WebApi.Test\\CustomWebApplicationFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T11:49:47.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "RegisterUserTest.cs",
               "DocumentMoniker": "E:\\Git\\recipe-book-api\\tests\\WebApi.Test\\User\\Register\\RegisterUserTest.cs",
               "RelativeDocumentMoniker": "tests\\WebApi.Test\\User\\Register\\RegisterUserTest.cs",
               "ToolTip": "E:\\Git\\recipe-book-api\\tests\\WebApi.Test\\User\\Register\\RegisterUserTest.cs",
               "RelativeToolTip": "tests\\WebApi.Test\\User\\Register\\RegisterUserTest.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-19T20:58:37.628Z",
               "EditorCaption": ""
