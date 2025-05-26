@@ -1,13 +1,11 @@
 ﻿using System.Net;
-using System.Net.Http;
 using System.Net.Http.Json;
 using System.Text.Json;
 using CommonTestsUtilities.Requests;
-using Microsoft.AspNetCore.Mvc.Testing;
 
 namespace WebApi.Test.User.Register
 {
-   
+
     public class RegisterUserTest: IClassFixture<CustomWebApplicationFactory>
     {
         private readonly HttpClient _httpClient;
@@ -18,6 +16,7 @@ namespace WebApi.Test.User.Register
        [Fact]
         public async Task Success()
         {
+            //middleware brake the code but in browser it works..
             var request = RequestRegisterUserJsonBuilder.Build();
             var response = await _httpClient.PostAsJsonAsync("User", request);
             Assert.Equal(HttpStatusCode.Created, response.StatusCode);
