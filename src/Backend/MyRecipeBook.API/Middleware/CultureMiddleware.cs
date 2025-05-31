@@ -1,4 +1,5 @@
 ﻿﻿using System.Globalization;
+using MyRecipeBook.Domain.Extensions;
 
 namespace MyRecipeBook.API.Middleware
 {
@@ -7,11 +8,11 @@ namespace MyRecipeBook.API.Middleware
         private readonly RequestDelegate _next;
         public async Task Invoke(HttpContext context)
         {
-            var supportedLanguages = CultureInfo.GetCultures(CultureTypes.AllCultures);
+            var supportedLanguages = CultureInfo.GetCultures(CultureTypes.AllCultures).ToList();
             var requestedCulture = context.Request.Headers["Accept-Language"].FirstOrDefault();
-            var cultureCode = requestedCulture.Split(',')[0].Split(';')[0].Trim();
+            var cultureCode = requestedCulture!.Split(',')[0].Split(';')[0].Trim();
             var cultureInfo = new CultureInfo("pt-BR");
-            if (!string.IsNullOrWhiteSpace(cultureCode) && supportedLanguages.Any(culture => culture.Name.Equals(cultureCode)))
+            if (string.IsNullOrWhiteSpace(cultureCode).IsFalse() && supportedLanguages.Exists(culture => culture.Name.Equals(cultureCode)))
                 cultureInfo = new CultureInfo(cultureCode);
             CultureInfo.CurrentCulture = cultureInfo;
             CultureInfo.CurrentUICulture = cultureInfo;

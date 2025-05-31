@@ -43,6 +43,6 @@ void MigrateDataBase()
 }
 public partial class Program 
 { 
-
+    protected Program() { }
 }
 
