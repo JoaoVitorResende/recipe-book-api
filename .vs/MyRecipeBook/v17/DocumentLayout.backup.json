@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "E:\\Git\\recipe-book-api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F3F33243-78FD-4C0C-85A7-40E121F25E62}|src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj|e:\\git\\recipe-book-api\\src\\backend\\myrecipebook.api\\middleware\\culturemiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3F33243-78FD-4C0C-85A7-40E121F25E62}|src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj|solutionrelative:src\\backend\\myrecipebook.api\\middleware\\culturemiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D643E103-1AF0-4418-A2DA-3942D6BD9948}|tests\\UseCases.Test\\UseCases.Test.csproj|e:\\git\\recipe-book-api\\tests\\usecases.test\\user\\register\\registeruserusecasetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D643E103-1AF0-4418-A2DA-3942D6BD9948}|tests\\UseCases.Test\\UseCases.Test.csproj|solutionrelative:tests\\usecases.test\\user\\register\\registeruserusecasetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F068F922-A99D-4689-A0BD-A918E5EBCD15}|src\\Backend\\MyRecipeBook.Domain\\MyRecipeBook.Domain.csproj|e:\\git\\recipe-book-api\\src\\backend\\myrecipebook.domain\\extensions\\stringextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F068F922-A99D-4689-A0BD-A918E5EBCD15}|src\\Backend\\MyRecipeBook.Domain\\MyRecipeBook.Domain.csproj|solutionrelative:src\\backend\\myrecipebook.domain\\extensions\\stringextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F3F33243-78FD-4C0C-85A7-40E121F25E62}|src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj|e:\\git\\recipe-book-api\\src\\backend\\myrecipebook.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F33243-78FD-4C0C-85A7-40E121F25E62}|src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj|solutionrelative:src\\backend\\myrecipebook.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StringExtension.cs",
-              "DocumentMoniker": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBook.Domain\\Extensions\\StringExtension.cs",
-              "RelativeDocumentMoniker": "src\\Backend\\MyRecipeBook.Domain\\Extensions\\StringExtension.cs",
-              "ToolTip": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBook.Domain\\Extensions\\StringExtension.cs",
-              "RelativeToolTip": "src\\Backend\\MyRecipeBook.Domain\\Extensions\\StringExtension.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "RegisterUserUseCaseTest.cs",
+              "DocumentMoniker": "E:\\Git\\recipe-book-api\\tests\\UseCases.Test\\User\\Register\\RegisterUserUseCaseTest.cs",
+              "RelativeDocumentMoniker": "tests\\UseCases.Test\\User\\Register\\RegisterUserUseCaseTest.cs",
+              "ToolTip": "E:\\Git\\recipe-book-api\\tests\\UseCases.Test\\User\\Register\\RegisterUserUseCaseTest.cs",
+              "RelativeToolTip": "tests\\UseCases.Test\\User\\Register\\RegisterUserUseCaseTest.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T11:10:04.498Z",
+              "WhenOpened": "2025-06-02T17:09:28.825Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CultureMiddleware.cs",
-              "DocumentMoniker": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBook.API\\Middleware\\CultureMiddleware.cs",
-              "RelativeDocumentMoniker": "src\\Backend\\MyRecipeBook.API\\Middleware\\CultureMiddleware.cs",
-              "ToolTip": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBook.API\\Middleware\\CultureMiddleware.cs",
-              "RelativeToolTip": "src\\Backend\\MyRecipeBook.API\\Middleware\\CultureMiddleware.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBook.API\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\MyRecipeBook.API\\Program.cs",
+              "ToolTip": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBook.API\\Program.cs*",
+              "RelativeToolTip": "src\\Backend\\MyRecipeBook.API\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T11:57:58.398Z",
+              "WhenOpened": "2025-06-02T17:08:06.199Z",
               "EditorCaption": ""
             }
           ]
