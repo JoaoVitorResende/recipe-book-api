@@ -30,7 +30,7 @@ namespace MyRecipeBook.Application
         private static void AddUseCases(IServiceCollection services)
         { 
             services.AddScoped<IRegisterUserUseCase, RegisterUserUseCase>(); 
-            services.AddScoped<IDoLoginUseCase, DoLoginUserCase>(); 
+            services.AddScoped<IDoLoginUseCase, DoLoginUseCase>(); 
         }
     }
 }

@@ -8,11 +8,11 @@ namespace MyRecipeBook.Application.UseCases.Login.DoLogin
 {
    
 
-    public class DoLoginUserCase : IDoLoginUseCase
+    public class DoLoginUseCase : IDoLoginUseCase
     {
         private readonly IUserReadOnlyRepository _repository;
         private readonly PasswordEncryption _passwordEncryption;
-        public DoLoginUserCase(IUserReadOnlyRepository repository, PasswordEncryption passwordEncryption)
+        public DoLoginUseCase(IUserReadOnlyRepository repository, PasswordEncryption passwordEncryption)
         {
             _repository = repository;
             _passwordEncryption = passwordEncryption;
