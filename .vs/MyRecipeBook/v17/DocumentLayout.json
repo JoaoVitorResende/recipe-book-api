@@ -5,6 +5,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{44FAE871-1B9B-40CB-96DC-A1CE5DBEB9D2}|tests\\WebApi.Test\\WebApi.Test.csproj|e:\\git\\recipe-book-api\\tests\\webapi.test\\customwebapplicationfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44FAE871-1B9B-40CB-96DC-A1CE5DBEB9D2}|tests\\WebApi.Test\\WebApi.Test.csproj|solutionrelative:tests\\webapi.test\\customwebapplicationfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44FAE871-1B9B-40CB-96DC-A1CE5DBEB9D2}|tests\\WebApi.Test\\WebApi.Test.csproj|e:\\git\\recipe-book-api\\tests\\webapi.test\\login\\dologin\\dologintest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FAE871-1B9B-40CB-96DC-A1CE5DBEB9D2}|tests\\WebApi.Test\\WebApi.Test.csproj|solutionrelative:tests\\webapi.test\\login\\dologin\\dologintest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44FAE871-1B9B-40CB-96DC-A1CE5DBEB9D2}|tests\\WebApi.Test\\WebApi.Test.csproj|e:\\git\\recipe-book-api\\tests\\webapi.test\\user\\register\\registerusertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FAE871-1B9B-40CB-96DC-A1CE5DBEB9D2}|tests\\WebApi.Test\\WebApi.Test.csproj|solutionrelative:tests\\webapi.test\\user\\register\\registerusertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44FAE871-1B9B-40CB-96DC-A1CE5DBEB9D2}|tests\\WebApi.Test\\WebApi.Test.csproj|e:\\git\\recipe-book-api\\tests\\webapi.test\\myrecipebookclassfixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FAE871-1B9B-40CB-96DC-A1CE5DBEB9D2}|tests\\WebApi.Test\\WebApi.Test.csproj|solutionrelative:tests\\webapi.test\\myrecipebookclassfixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +26,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyRecipeBookClassFixture.cs",
+              "DocumentMoniker": "E:\\Git\\recipe-book-api\\tests\\WebApi.Test\\MyRecipeBookClassFixture.cs",
+              "RelativeDocumentMoniker": "tests\\WebApi.Test\\MyRecipeBookClassFixture.cs",
+              "ToolTip": "E:\\Git\\recipe-book-api\\tests\\WebApi.Test\\MyRecipeBookClassFixture.cs",
+              "RelativeToolTip": "tests\\WebApi.Test\\MyRecipeBookClassFixture.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T13:26:10.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegisterUserTest.cs",
+              "DocumentMoniker": "E:\\Git\\recipe-book-api\\tests\\WebApi.Test\\User\\Register\\RegisterUserTest.cs",
+              "RelativeDocumentMoniker": "tests\\WebApi.Test\\User\\Register\\RegisterUserTest.cs",
+              "ToolTip": "E:\\Git\\recipe-book-api\\tests\\WebApi.Test\\User\\Register\\RegisterUserTest.cs",
+              "RelativeToolTip": "tests\\WebApi.Test\\User\\Register\\RegisterUserTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T13:24:58.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DoLoginTest.cs",
+              "DocumentMoniker": "E:\\Git\\recipe-book-api\\tests\\WebApi.Test\\Login\\DoLogin\\DoLoginTest.cs",
+              "RelativeDocumentMoniker": "tests\\WebApi.Test\\Login\\DoLogin\\DoLoginTest.cs",
+              "ToolTip": "E:\\Git\\recipe-book-api\\tests\\WebApi.Test\\Login\\DoLogin\\DoLoginTest.cs",
+              "RelativeToolTip": "tests\\WebApi.Test\\Login\\DoLogin\\DoLoginTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T13:24:40.728Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +75,7 @@
               "RelativeDocumentMoniker": "tests\\WebApi.Test\\CustomWebApplicationFactory.cs",
               "ToolTip": "E:\\Git\\recipe-book-api\\tests\\WebApi.Test\\CustomWebApplicationFactory.cs",
               "RelativeToolTip": "tests\\WebApi.Test\\CustomWebApplicationFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-13T12:50:20.328Z",
               "EditorCaption": ""

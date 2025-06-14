@@ -11,7 +11,6 @@ namespace WebApi.Test
     {
         private MyRecipeBook.Domain.Entities.User _user = default!; 
         private string _password = string.Empty; 
-        private string _name = string.Empty;
         protected override void ConfigureWebHost(IWebHostBuilder builder)
         {
             builder.UseEnvironment("Test").ConfigureServices(services =>
