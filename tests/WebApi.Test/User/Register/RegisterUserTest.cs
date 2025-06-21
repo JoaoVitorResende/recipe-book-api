@@ -22,6 +22,7 @@ namespace WebApi.Test.User.Register
             Assert.NotNull(responseData.RootElement.GetProperty("name").GetString());
             Assert.NotEmpty(responseData.RootElement.GetProperty("name").GetString()!);
             Assert.Equal(request.Name,responseData.RootElement.GetProperty("name").GetString());
+            Assert.NotEmpty(responseData.RootElement.GetProperty("tokens").GetProperty("acessToken").GetString()!);
         }
     }
 }
