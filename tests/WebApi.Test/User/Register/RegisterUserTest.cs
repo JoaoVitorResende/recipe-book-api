@@ -5,7 +5,6 @@ using WebApi.Test.InlineData;
 
 namespace WebApi.Test.User.Register
 {
-
     public class RegisterUserTest: MyRecipeBookClassFixture
     {
         public RegisterUserTest(CustomWebApplicationFactory factory): base(factory) { }
