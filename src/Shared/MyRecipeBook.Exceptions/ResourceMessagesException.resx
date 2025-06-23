@@ -129,6 +129,9 @@
   <data name="NAME_EMPTY" xml:space="preserve">
     <value>The name can't be empty.</value>
   </data>
+  <data name="NO_TOKEN" xml:space="preserve">
+    <value>No token have been recived</value>
+  </data>
   <data name="PASSWORD_NOT_GREAT_THEN_SIX_CHARACTERS" xml:space="preserve">
     <value>The password is not long enought</value>
   </data>
@@ -137,5 +140,8 @@
   </data>
   <data name="UNKOWN_ERROR" xml:space="preserve">
     <value>Unkonw error</value>
+  </data>
+  <data name="USER_WITHOUT_PERMISSION_ACCESS_RESOURCE" xml:space="preserve">
+    <value>No user identifier was found or user is not active</value>
   </data>
 </root>

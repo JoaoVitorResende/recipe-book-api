@@ -129,6 +129,9 @@
   <data name="NAME_EMPTY" xml:space="preserve">
     <value>O nome não pode estar vazio.</value>
   </data>
+  <data name="NO_TOKEN" xml:space="preserve">
+    <value>Nenhum token recebido</value>
+  </data>
   <data name="PASSWORD_NOT_GREAT_THEN_SIX_CHARACTERS" xml:space="preserve">
     <value>A senha está com menos de seis caracteres</value>
   </data>
@@ -137,5 +140,8 @@
   </data>
   <data name="UNKOWN_ERROR" xml:space="preserve">
     <value>Erro Desconhecido</value>
+  </data>
+  <data name="USER_WITHOUT_PERMISSION_ACCESS_RESOURCE" xml:space="preserve">
+    <value>Não foi encontrado o identificador do usuario ou o mesmo não está ativo</value>
   </data>
 </root>
