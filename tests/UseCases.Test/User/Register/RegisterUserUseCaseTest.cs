@@ -2,6 +2,7 @@
 using CommonTestsUtilities.Mapper;
 using CommonTestsUtilities.Repositories;
 using CommonTestsUtilities.Requests;
+using CommonTestsUtilities.Tokens;
 using MyRecipeBook.Application.UseCases.User.Register;
 using MyRecipeBook.Exceptions;
 using MyRecipeBook.Exceptions.ExceptionBase;
@@ -18,6 +19,9 @@ namespace UseCases.Test.User.Register
             var result = await useCase.Execute(request);
             Assert.NotNull(result);
             Assert.Equal(result.Name, request.Name);
+            Assert.NotNull(result.Tokens);
+            Assert.NotEmpty(result.Tokens.AccessToken);
+            Assert.NotNull(result.Tokens.AccessToken);
         }
         [Fact]
         public async Task ErrorEmailAlreadyRegistred()
@@ -51,9 +55,10 @@ namespace UseCases.Test.User.Register
             var WriteRepository = UserWriteOnlyRepositoryBuilder.Build();
             var unityOfWork = UnityOfWorkBuilder.Build();
             var readRepositoryBuilder = new UserReadOnlyRepositoryBuilder();
-            if(!string.IsNullOrEmpty(email))
+            var accessTokenGenerator = JwtTokenGeneratorBuilder.build();
+            if (!string.IsNullOrEmpty(email))
                 readRepositoryBuilder.ExistsUserWithEmail(email);
-            return new RegisterUserUseCase(WriteRepository, readRepositoryBuilder.Build(), mapper, encripter, unityOfWork);
+            return new RegisterUserUseCase(WriteRepository, readRepositoryBuilder.Build(), mapper, encripter, unityOfWork, accessTokenGenerator);
         }
     }
 }

@@ -5,7 +5,6 @@ using WebApi.Test.InlineData;
 
 namespace WebApi.Test.User.Register
 {
-
     public class RegisterUserTest: MyRecipeBookClassFixture
     {
         public RegisterUserTest(CustomWebApplicationFactory factory): base(factory) { }
@@ -22,6 +21,7 @@ namespace WebApi.Test.User.Register
             Assert.NotNull(responseData.RootElement.GetProperty("name").GetString());
             Assert.NotEmpty(responseData.RootElement.GetProperty("name").GetString()!);
             Assert.Equal(request.Name,responseData.RootElement.GetProperty("name").GetString());
+            Assert.NotEmpty(responseData.RootElement.GetProperty("tokens").GetProperty("acessToken").GetString()!);
         }
     }
 }

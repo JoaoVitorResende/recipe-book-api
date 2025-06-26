@@ -30,6 +30,7 @@ namespace WebApi.Test.Login.DoLogin
             await using var responseBody = await response.Content.ReadAsStreamAsync();
             var responseData = await JsonDocument.ParseAsync(responseBody);
             Assert.Equal(responseData.RootElement.GetProperty("name").GetString(), _name);
+            Assert.NotEmpty(responseData.RootElement.GetProperty("tokens").GetProperty("acessToken").GetString()!);
         }
     }
 }
