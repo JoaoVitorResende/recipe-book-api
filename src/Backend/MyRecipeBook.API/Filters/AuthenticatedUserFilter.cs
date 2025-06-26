@@ -44,7 +44,7 @@ namespace MyRecipeBook.API.Filters
         private static string TokenOnRequest(AuthorizationFilterContext context)
         {
             var authentication = context.HttpContext.Request.Headers.Authorization.ToString();
-            if (string.IsNullOrEmpty(authentication))
+            if (string.IsNullOrWhiteSpace(authentication))
             {
                 throw new MyRecipeBookException(ResourceMessagesException.NO_TOKEN);
             }

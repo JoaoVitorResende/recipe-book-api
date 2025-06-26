@@ -60,7 +60,7 @@ namespace MyRecipeBook.Infrastructure
         {
             var expirationTimeMinutes = configuration.GetValue<uint>("Settings:Jwt:ExpirationTimeMinutes");
             var signingKey = configuration.GetValue<string>("Settings:Jwt:SigningKey");
-            services.AddScoped<IAccessTokenGenerator>(option => new JwtTokenGenerator(expirationTimeMinutes, signingKey));
+            services.AddScoped<IAccessTokenGenerator>(option => new JwtTokenGenerator(expirationTimeMinutes, signingKey!));
             services.AddScoped<IAccessTokenValidator>(option => new JwtTokenValidator(signingKey!));
         }
         private static void AddLoggedUser(IServiceCollection services)

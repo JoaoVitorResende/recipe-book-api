@@ -7,7 +7,8 @@ namespace MyRecipeBook.Infrastructure.Security.Tokens.Access
     {
         protected SymmetricSecurityKey SecurityKey(string _singingKey)
         {
-            return new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_singingKey));
+            var bytes = Encoding.UTF8.GetBytes(_singingKey);
+            return new SymmetricSecurityKey(bytes);
         }
     }
 }
