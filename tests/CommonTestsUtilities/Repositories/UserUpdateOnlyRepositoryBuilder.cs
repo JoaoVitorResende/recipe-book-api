@@ -1,14 +1,18 @@
 ﻿using Moq;
+using MyRecipeBook.Domain.Entities;
 using MyRecipeBook.Domain.Repositories.User;
 
 namespace CommonTestsUtilities.Repositories
 {
     public class UserUpdateOnlyRepositoryBuilder
     {
-        public static IUserUpdateOnlyRepository Build()
+        private readonly Mock<IUserUpdateOnlyRepository> _repository;
+        public UserUpdateOnlyRepositoryBuilder() => _repository = new Mock<IUserUpdateOnlyRepository>();
+        public UserUpdateOnlyRepositoryBuilder GetById(User user)
         {
-            var mock = new Mock<IUserUpdateOnlyRepository>();
-            return mock.Object;
+            _repository.Setup(x => x.GetById(user.Id)).ReturnsAsync(user);
+            return this;
         }
+        public IUserUpdateOnlyRepository Build() => _repository.Object;
     }
 }

@@ -1,54 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\Git\\recipe-book-api\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{7312FADB-ABA9-4DC4-A3E5-B6100C471E02}|tests\\CommonTestsUtilities\\CommonTestsUtilities.csproj|e:\\git\\recipe-book-api\\tests\\commontestsutilities\\repositories\\userupdateonlyrepositorybuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7312FADB-ABA9-4DC4-A3E5-B6100C471E02}|tests\\CommonTestsUtilities\\CommonTestsUtilities.csproj|solutionrelative:tests\\commontestsutilities\\repositories\\userupdateonlyrepositorybuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D643E103-1AF0-4418-A2DA-3942D6BD9948}|tests\\UseCases.Test\\UseCases.Test.csproj|e:\\git\\recipe-book-api\\tests\\usecases.test\\user\\update\\updateprofileusecasetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D643E103-1AF0-4418-A2DA-3942D6BD9948}|tests\\UseCases.Test\\UseCases.Test.csproj|solutionrelative:tests\\usecases.test\\user\\update\\updateprofileusecasetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserUpdateOnlyRepositoryBuilder.cs",
-              "DocumentMoniker": "E:\\Git\\recipe-book-api\\tests\\CommonTestsUtilities\\Repositories\\UserUpdateOnlyRepositoryBuilder.cs",
-              "RelativeDocumentMoniker": "tests\\CommonTestsUtilities\\Repositories\\UserUpdateOnlyRepositoryBuilder.cs",
-              "ToolTip": "E:\\Git\\recipe-book-api\\tests\\CommonTestsUtilities\\Repositories\\UserUpdateOnlyRepositoryBuilder.cs",
-              "RelativeToolTip": "tests\\CommonTestsUtilities\\Repositories\\UserUpdateOnlyRepositoryBuilder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T20:57:52.458Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UpdateProfileUseCaseTest.cs",
-              "DocumentMoniker": "E:\\Git\\recipe-book-api\\tests\\UseCases.Test\\User\\Update\\UpdateProfileUseCaseTest.cs",
-              "RelativeDocumentMoniker": "tests\\UseCases.Test\\User\\Update\\UpdateProfileUseCaseTest.cs",
-              "ToolTip": "E:\\Git\\recipe-book-api\\tests\\UseCases.Test\\User\\Update\\UpdateProfileUseCaseTest.cs",
-              "RelativeToolTip": "tests\\UseCases.Test\\User\\Update\\UpdateProfileUseCaseTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T20:47:09.668Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

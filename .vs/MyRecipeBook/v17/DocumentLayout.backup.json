@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "E:\\Git\\recipe-book-api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D643E103-1AF0-4418-A2DA-3942D6BD9948}|tests\\UseCases.Test\\UseCases.Test.csproj|e:\\git\\recipe-book-api\\tests\\usecases.test\\user\\update\\updateprofiletest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D643E103-1AF0-4418-A2DA-3942D6BD9948}|tests\\UseCases.Test\\UseCases.Test.csproj|solutionrelative:tests\\usecases.test\\user\\update\\updateprofiletest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D643E103-1AF0-4418-A2DA-3942D6BD9948}|tests\\UseCases.Test\\UseCases.Test.csproj|e:\\git\\recipe-book-api\\tests\\usecases.test\\user\\update\\updateuserusecasetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D643E103-1AF0-4418-A2DA-3942D6BD9948}|tests\\UseCases.Test\\UseCases.Test.csproj|solutionrelative:tests\\usecases.test\\user\\update\\updateuserusecasetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{540BAC00-30D7-4B46-AF5D-4E41DC9F62A5}|src\\Backend\\MyRecipeBook.Application\\MyRecipeBook.Application.csproj|e:\\git\\recipe-book-api\\src\\backend\\myrecipebook.application\\usecases\\user\\update\\updateuserusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{540BAC00-30D7-4B46-AF5D-4E41DC9F62A5}|src\\Backend\\MyRecipeBook.Application\\MyRecipeBook.Application.csproj|solutionrelative:src\\backend\\myrecipebook.application\\usecases\\user\\update\\updateuserusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7312FADB-ABA9-4DC4-A3E5-B6100C471E02}|tests\\CommonTestsUtilities\\CommonTestsUtilities.csproj|e:\\git\\recipe-book-api\\tests\\commontestsutilities\\requests\\requestupdateuserjsonbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7312FADB-ABA9-4DC4-A3E5-B6100C471E02}|tests\\CommonTestsUtilities\\CommonTestsUtilities.csproj|solutionrelative:tests\\commontestsutilities\\requests\\requestupdateuserjsonbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7312FADB-ABA9-4DC4-A3E5-B6100C471E02}|tests\\CommonTestsUtilities\\CommonTestsUtilities.csproj|e:\\git\\recipe-book-api\\tests\\commontestsutilities\\repositories\\userupdateonlyrepositorybuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7312FADB-ABA9-4DC4-A3E5-B6100C471E02}|tests\\CommonTestsUtilities\\CommonTestsUtilities.csproj|solutionrelative:tests\\commontestsutilities\\repositories\\userupdateonlyrepositorybuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,41 +22,28 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RequestUpdateUserJsonBuilder.cs",
-              "DocumentMoniker": "E:\\Git\\recipe-book-api\\tests\\CommonTestsUtilities\\Requests\\RequestUpdateUserJsonBuilder.cs",
-              "RelativeDocumentMoniker": "tests\\CommonTestsUtilities\\Requests\\RequestUpdateUserJsonBuilder.cs",
-              "ToolTip": "E:\\Git\\recipe-book-api\\tests\\CommonTestsUtilities\\Requests\\RequestUpdateUserJsonBuilder.cs",
-              "RelativeToolTip": "tests\\CommonTestsUtilities\\Requests\\RequestUpdateUserJsonBuilder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "UserUpdateOnlyRepositoryBuilder.cs",
+              "DocumentMoniker": "E:\\Git\\recipe-book-api\\tests\\CommonTestsUtilities\\Repositories\\UserUpdateOnlyRepositoryBuilder.cs",
+              "RelativeDocumentMoniker": "tests\\CommonTestsUtilities\\Repositories\\UserUpdateOnlyRepositoryBuilder.cs",
+              "ToolTip": "E:\\Git\\recipe-book-api\\tests\\CommonTestsUtilities\\Repositories\\UserUpdateOnlyRepositoryBuilder.cs",
+              "RelativeToolTip": "tests\\CommonTestsUtilities\\Repositories\\UserUpdateOnlyRepositoryBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T20:26:11.633Z",
+              "WhenOpened": "2025-07-06T15:59:15.269Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UpdateProfileTest.cs",
-              "DocumentMoniker": "E:\\Git\\recipe-book-api\\tests\\UseCases.Test\\User\\Update\\UpdateProfileTest.cs",
-              "RelativeDocumentMoniker": "tests\\UseCases.Test\\User\\Update\\UpdateProfileTest.cs",
-              "ToolTip": "E:\\Git\\recipe-book-api\\tests\\UseCases.Test\\User\\Update\\UpdateProfileTest.cs",
-              "RelativeToolTip": "tests\\UseCases.Test\\User\\Update\\UpdateProfileTest.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAiwBkAAABcAAAAAAAAAA==",
+              "Title": "UpdateUserUseCaseTest.cs",
+              "DocumentMoniker": "E:\\Git\\recipe-book-api\\tests\\UseCases.Test\\User\\Update\\UpdateUserUseCaseTest.cs",
+              "RelativeDocumentMoniker": "tests\\UseCases.Test\\User\\Update\\UpdateUserUseCaseTest.cs",
+              "ToolTip": "E:\\Git\\recipe-book-api\\tests\\UseCases.Test\\User\\Update\\UpdateUserUseCaseTest.cs",
+              "RelativeToolTip": "tests\\UseCases.Test\\User\\Update\\UpdateUserUseCaseTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T20:21:43.369Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UpdateUserUseCase.cs",
-              "DocumentMoniker": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBook.Application\\UseCases\\User\\Update\\UpdateUserUseCase.cs",
-              "RelativeDocumentMoniker": "src\\Backend\\MyRecipeBook.Application\\UseCases\\User\\Update\\UpdateUserUseCase.cs",
-              "ToolTip": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBook.Application\\UseCases\\User\\Update\\UpdateUserUseCase.cs",
-              "RelativeToolTip": "src\\Backend\\MyRecipeBook.Application\\UseCases\\User\\Update\\UpdateUserUseCase.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAvwCwAAAB3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T20:27:13.073Z",
+              "WhenOpened": "2025-07-03T20:47:09.668Z",
               "EditorCaption": ""
             }
           ]
