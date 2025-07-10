@@ -132,6 +132,15 @@
   <data name="NO_TOKEN" xml:space="preserve">
     <value>No token have been recived</value>
   </data>
+  <data name="PASSWORD_DIFFERENT_CURRENT_PASSWORD" xml:space="preserve">
+    <value>The password is diferent to the current password</value>
+  </data>
+  <data name="PASSWORD_EMPTY" xml:space="preserve">
+    <value>The password can't be empty</value>
+  </data>
+  <data name="PASSWORD_INVALID" xml:space="preserve">
+    <value>The password is invalid</value>
+  </data>
   <data name="PASSWORD_NOT_GREAT_THEN_SIX_CHARACTERS" xml:space="preserve">
     <value>The password is not long enought</value>
   </data>

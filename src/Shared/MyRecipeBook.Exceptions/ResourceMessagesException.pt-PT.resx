@@ -132,6 +132,15 @@
   <data name="NO_TOKEN" xml:space="preserve">
     <value>Nenhuma ficha recebida</value>
   </data>
+  <data name="PASSWORD_DIFFERENT_CURRENT_PASSWORD" xml:space="preserve">
+    <value>A senha é diferente com a da atual</value>
+  </data>
+  <data name="PASSWORD_EMPTY" xml:space="preserve">
+    <value>A senha não pode ser vazia</value>
+  </data>
+  <data name="PASSWORD_INVALID" xml:space="preserve">
+    <value>A senha é invalida</value>
+  </data>
   <data name="PASSWORD_NOT_GREAT_THEN_SIX_CHARACTERS" xml:space="preserve">
     <value>A senha está com menos de seis caracteres</value>
   </data>
