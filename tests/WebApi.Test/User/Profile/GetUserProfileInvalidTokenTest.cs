@@ -25,7 +25,7 @@ namespace WebApi.Test.User.Profile
         [Fact]
         public async Task ErrorWithUserNotFound()
         {
-            var token = JwtTokenGeneratorBuilder.build().Generate(Guid.NewGuid());
+            var token = JwtTokenGeneratorBuilder.Build().Generate(Guid.NewGuid());
             var response = await DoGet(METHOD, token: token);
             Assert.Equal(HttpStatusCode.Unauthorized, response.StatusCode);
         }

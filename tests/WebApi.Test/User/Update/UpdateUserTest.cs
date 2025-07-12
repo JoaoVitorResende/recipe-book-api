@@ -18,7 +18,7 @@ namespace WebApi.Test.User.Update
         {
             //problem here but in browser it works..
             var request = RequestUpdateUserJsonBuilder.Build();
-            var token = JwtTokenGeneratorBuilder.build().Generate(Guid.NewGuid());
+            var token = JwtTokenGeneratorBuilder.Build().Generate(Guid.NewGuid());
             var response = await DoPut(method, request, token);
             Assert.Equal(HttpStatusCode.NoContent, response.StatusCode);
         }

@@ -55,7 +55,7 @@ namespace UseCases.Test.User.Register
             var WriteRepository = UserWriteOnlyRepositoryBuilder.Build();
             var unityOfWork = UnityOfWorkBuilder.Build();
             var readRepositoryBuilder = new UserReadOnlyRepositoryBuilder();
-            var accessTokenGenerator = JwtTokenGeneratorBuilder.build();
+            var accessTokenGenerator = JwtTokenGeneratorBuilder.Build();
             if (!string.IsNullOrEmpty(email))
                 readRepositoryBuilder.ExistsUserWithEmail(email);
             return new RegisterUserUseCase(WriteRepository, readRepositoryBuilder.Build(), mapper, encripter, unityOfWork, accessTokenGenerator);

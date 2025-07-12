@@ -42,7 +42,7 @@ namespace UseCases.Test.Login.DoLogin
         {
             var passwordEncripter = PasswordEncripterBuilder.Build();
             var userReadOnlyRepositoryBuilder = new UserReadOnlyRepositoryBuilder();
-            var accessTokenGenerator = JwtTokenGeneratorBuilder.build();
+            var accessTokenGenerator = JwtTokenGeneratorBuilder.Build();
             if (user is not null)
                 userReadOnlyRepositoryBuilder.GetByEmailAndPassword(user);
             return new DoLoginUseCase(userReadOnlyRepositoryBuilder.Build(),  passwordEncripter, accessTokenGenerator);
