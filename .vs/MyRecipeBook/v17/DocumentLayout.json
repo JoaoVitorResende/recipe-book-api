@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "E:\\Git\\recipe-book-api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FDF224B7-DFC9-493F-AD8F-4206A3BC2326}|src\\Shared\\MyRecipeBook.Communication\\MyRecipeBook.Communication.csproj|e:\\git\\recipe-book-api\\src\\shared\\myrecipebook.communication\\responses\\responseerrorjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDF224B7-DFC9-493F-AD8F-4206A3BC2326}|src\\Shared\\MyRecipeBook.Communication\\MyRecipeBook.Communication.csproj|solutionrelative:src\\shared\\myrecipebook.communication\\responses\\responseerrorjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F32ACDF6-D86A-48A9-93CF-C5C2EDC6DC14}|src\\Backend\\MyRecipeBool.Infrastructure\\MyRecipeBook.Infrastructure.csproj|e:\\git\\recipe-book-api\\src\\backend\\myrecipebool.infrastructure\\migrations\\versions\\version0000002.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32ACDF6-D86A-48A9-93CF-C5C2EDC6DC14}|src\\Backend\\MyRecipeBool.Infrastructure\\MyRecipeBook.Infrastructure.csproj|solutionrelative:src\\backend\\myrecipebool.infrastructure\\migrations\\versions\\version0000002.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F32ACDF6-D86A-48A9-93CF-C5C2EDC6DC14}|src\\Backend\\MyRecipeBool.Infrastructure\\MyRecipeBook.Infrastructure.csproj|e:\\git\\recipe-book-api\\src\\backend\\myrecipebool.infrastructure\\security\\tokens\\access\\jwttokenhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F32ACDF6-D86A-48A9-93CF-C5C2EDC6DC14}|src\\Backend\\MyRecipeBool.Infrastructure\\MyRecipeBook.Infrastructure.csproj|solutionrelative:src\\backend\\myrecipebool.infrastructure\\security\\tokens\\access\\jwttokenhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F32ACDF6-D86A-48A9-93CF-C5C2EDC6DC14}|src\\Backend\\MyRecipeBool.Infrastructure\\MyRecipeBook.Infrastructure.csproj|e:\\git\\recipe-book-api\\src\\backend\\myrecipebool.infrastructure\\migrations\\versions\\version0000001.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32ACDF6-D86A-48A9-93CF-C5C2EDC6DC14}|src\\Backend\\MyRecipeBool.Infrastructure\\MyRecipeBook.Infrastructure.csproj|solutionrelative:src\\backend\\myrecipebool.infrastructure\\migrations\\versions\\version0000001.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44FAE871-1B9B-40CB-96DC-A1CE5DBEB9D2}|tests\\WebApi.Test\\WebApi.Test.csproj|e:\\git\\recipe-book-api\\tests\\webapi.test\\user\\changepassword\\changepasswordinvalidtokentest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FAE871-1B9B-40CB-96DC-A1CE5DBEB9D2}|tests\\WebApi.Test\\WebApi.Test.csproj|solutionrelative:tests\\webapi.test\\user\\changepassword\\changepasswordinvalidtokentest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7312FADB-ABA9-4DC4-A3E5-B6100C471E02}|tests\\CommonTestsUtilities\\CommonTestsUtilities.csproj|e:\\git\\recipe-book-api\\tests\\commontestsutilities\\tokens\\jwttokengeneratorbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7312FADB-ABA9-4DC4-A3E5-B6100C471E02}|tests\\CommonTestsUtilities\\CommonTestsUtilities.csproj|solutionrelative:tests\\commontestsutilities\\tokens\\jwttokengeneratorbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F32ACDF6-D86A-48A9-93CF-C5C2EDC6DC14}|src\\Backend\\MyRecipeBool.Infrastructure\\MyRecipeBook.Infrastructure.csproj|e:\\git\\recipe-book-api\\src\\backend\\myrecipebool.infrastructure\\migrations\\databaseversions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32ACDF6-D86A-48A9-93CF-C5C2EDC6DC14}|src\\Backend\\MyRecipeBool.Infrastructure\\MyRecipeBook.Infrastructure.csproj|solutionrelative:src\\backend\\myrecipebool.infrastructure\\migrations\\databaseversions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,57 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ResponseErrorJson.cs",
-              "DocumentMoniker": "E:\\Git\\recipe-book-api\\src\\Shared\\MyRecipeBook.Communication\\Responses\\ResponseErrorJson.cs",
-              "RelativeDocumentMoniker": "src\\Shared\\MyRecipeBook.Communication\\Responses\\ResponseErrorJson.cs",
-              "ToolTip": "E:\\Git\\recipe-book-api\\src\\Shared\\MyRecipeBook.Communication\\Responses\\ResponseErrorJson.cs",
-              "RelativeToolTip": "src\\Shared\\MyRecipeBook.Communication\\Responses\\ResponseErrorJson.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T19:23:31.042Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "JwtTokenHandler.cs",
-              "DocumentMoniker": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBool.Infrastructure\\Security\\Tokens\\Access\\JwtTokenHandler.cs",
-              "RelativeDocumentMoniker": "src\\Backend\\MyRecipeBool.Infrastructure\\Security\\Tokens\\Access\\JwtTokenHandler.cs",
-              "ToolTip": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBool.Infrastructure\\Security\\Tokens\\Access\\JwtTokenHandler.cs",
-              "RelativeToolTip": "src\\Backend\\MyRecipeBool.Infrastructure\\Security\\Tokens\\Access\\JwtTokenHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Title": "Version0000001.cs",
+              "DocumentMoniker": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBool.Infrastructure\\Migrations\\Versions\\Version0000001.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\MyRecipeBool.Infrastructure\\Migrations\\Versions\\Version0000001.cs",
+              "ToolTip": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBool.Infrastructure\\Migrations\\Versions\\Version0000001.cs",
+              "RelativeToolTip": "src\\Backend\\MyRecipeBool.Infrastructure\\Migrations\\Versions\\Version0000001.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T19:22:23.049Z",
+              "WhenOpened": "2025-07-14T20:33:53.253Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "JwtTokenGeneratorBuilder.cs",
-              "DocumentMoniker": "E:\\Git\\recipe-book-api\\tests\\CommonTestsUtilities\\Tokens\\JwtTokenGeneratorBuilder.cs",
-              "RelativeDocumentMoniker": "tests\\CommonTestsUtilities\\Tokens\\JwtTokenGeneratorBuilder.cs",
-              "ToolTip": "E:\\Git\\recipe-book-api\\tests\\CommonTestsUtilities\\Tokens\\JwtTokenGeneratorBuilder.cs",
-              "RelativeToolTip": "tests\\CommonTestsUtilities\\Tokens\\JwtTokenGeneratorBuilder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Version0000002.cs",
+              "DocumentMoniker": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBool.Infrastructure\\Migrations\\Versions\\Version0000002.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\MyRecipeBool.Infrastructure\\Migrations\\Versions\\Version0000002.cs",
+              "ToolTip": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBool.Infrastructure\\Migrations\\Versions\\Version0000002.cs",
+              "RelativeToolTip": "src\\Backend\\MyRecipeBool.Infrastructure\\Migrations\\Versions\\Version0000002.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T15:54:30.987Z"
+              "WhenOpened": "2025-07-14T20:33:44.444Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ChangePasswordInvalidTokenTest.cs",
-              "DocumentMoniker": "E:\\Git\\recipe-book-api\\tests\\WebApi.Test\\User\\ChangePassword\\ChangePasswordInvalidTokenTest.cs",
-              "RelativeDocumentMoniker": "tests\\WebApi.Test\\User\\ChangePassword\\ChangePasswordInvalidTokenTest.cs",
-              "ToolTip": "E:\\Git\\recipe-book-api\\tests\\WebApi.Test\\User\\ChangePassword\\ChangePasswordInvalidTokenTest.cs",
-              "RelativeToolTip": "tests\\WebApi.Test\\User\\ChangePassword\\ChangePasswordInvalidTokenTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
+              "Title": "DataBaseVersions.cs",
+              "DocumentMoniker": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBool.Infrastructure\\Migrations\\DataBaseVersions.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\MyRecipeBool.Infrastructure\\Migrations\\DataBaseVersions.cs",
+              "ToolTip": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBool.Infrastructure\\Migrations\\DataBaseVersions.cs",
+              "RelativeToolTip": "src\\Backend\\MyRecipeBool.Infrastructure\\Migrations\\DataBaseVersions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T15:52:47.283Z",
+              "WhenOpened": "2025-07-14T20:30:56.785Z",
               "EditorCaption": ""
             }
           ]
