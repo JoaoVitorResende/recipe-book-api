@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{F32ACDF6-D86A-48A9-93CF-C5C2EDC6DC14}|src\\Backend\\MyRecipeBool.Infrastructure\\MyRecipeBook.Infrastructure.csproj|solutionrelative:src\\backend\\myrecipebool.infrastructure\\migrations\\versions\\version0000002.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F32ACDF6-D86A-48A9-93CF-C5C2EDC6DC14}|src\\Backend\\MyRecipeBool.Infrastructure\\MyRecipeBook.Infrastructure.csproj|e:\\git\\recipe-book-api\\src\\backend\\myrecipebool.infrastructure\\migrations\\versions\\version0000001.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F32ACDF6-D86A-48A9-93CF-C5C2EDC6DC14}|src\\Backend\\MyRecipeBool.Infrastructure\\MyRecipeBook.Infrastructure.csproj|solutionrelative:src\\backend\\myrecipebool.infrastructure\\migrations\\versions\\version0000001.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F3F33243-78FD-4C0C-85A7-40E121F25E62}|src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj|e:\\git\\recipe-book-api\\src\\backend\\myrecipebook.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F3F33243-78FD-4C0C-85A7-40E121F25E62}|src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj|solutionrelative:src\\backend\\myrecipebook.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F32ACDF6-D86A-48A9-93CF-C5C2EDC6DC14}|src\\Backend\\MyRecipeBool.Infrastructure\\MyRecipeBook.Infrastructure.csproj|e:\\git\\recipe-book-api\\src\\backend\\myrecipebool.infrastructure\\migrations\\databaseversions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F32ACDF6-D86A-48A9-93CF-C5C2EDC6DC14}|src\\Backend\\MyRecipeBool.Infrastructure\\MyRecipeBook.Infrastructure.csproj|solutionrelative:src\\backend\\myrecipebool.infrastructure\\migrations\\databaseversions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F3F33243-78FD-4C0C-85A7-40E121F25E62}|src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj|e:\\git\\recipe-book-api\\src\\backend\\myrecipebook.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F3F33243-78FD-4C0C-85A7-40E121F25E62}|src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj|solutionrelative:src\\backend\\myrecipebook.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,21 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Version0000001.cs",
-              "DocumentMoniker": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBool.Infrastructure\\Migrations\\Versions\\Version0000001.cs",
-              "RelativeDocumentMoniker": "src\\Backend\\MyRecipeBool.Infrastructure\\Migrations\\Versions\\Version0000001.cs",
-              "ToolTip": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBool.Infrastructure\\Migrations\\Versions\\Version0000001.cs",
-              "RelativeToolTip": "src\\Backend\\MyRecipeBool.Infrastructure\\Migrations\\Versions\\Version0000001.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T20:33:53.253Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -45,22 +32,35 @@
               "RelativeDocumentMoniker": "src\\Backend\\MyRecipeBool.Infrastructure\\Migrations\\Versions\\Version0000002.cs",
               "ToolTip": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBool.Infrastructure\\Migrations\\Versions\\Version0000002.cs",
               "RelativeToolTip": "src\\Backend\\MyRecipeBool.Infrastructure\\Migrations\\Versions\\Version0000002.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAIA7wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T20:33:44.444Z",
+              "WhenOpened": "2025-07-15T00:48:12.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBook.API\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\Backend\\MyRecipeBook.API\\appsettings.json",
+              "ToolTip": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBook.API\\appsettings.json",
+              "RelativeToolTip": "src\\Backend\\MyRecipeBook.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-15T00:47:24.763Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DataBaseVersions.cs",
-              "DocumentMoniker": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBool.Infrastructure\\Migrations\\DataBaseVersions.cs",
-              "RelativeDocumentMoniker": "src\\Backend\\MyRecipeBool.Infrastructure\\Migrations\\DataBaseVersions.cs",
-              "ToolTip": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBool.Infrastructure\\Migrations\\DataBaseVersions.cs",
-              "RelativeToolTip": "src\\Backend\\MyRecipeBool.Infrastructure\\Migrations\\DataBaseVersions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T20:30:56.785Z",
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBook.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "src\\Backend\\MyRecipeBook.API\\appsettings.Development.json",
+              "ToolTip": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBook.API\\appsettings.Development.json",
+              "RelativeToolTip": "src\\Backend\\MyRecipeBook.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-15T00:47:27.134Z",
               "EditorCaption": ""
             }
           ]
