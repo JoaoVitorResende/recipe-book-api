@@ -3,7 +3,7 @@ using CommonTestsUtilities.Login;
 using CommonTestsUtilities.Mapper;
 using MyRecipeBook.Application.UseCases.User.Profile;
 
-namespace WebApi.Test.User.Profile
+namespace UseCases.Test.User.Profile
 {
     public class GetUserProfileUseCaseTest
     {
@@ -21,7 +21,7 @@ namespace WebApi.Test.User.Profile
         {
             var mapper = MapperBuilder.Build();
             var loggedUser = LoggedUserBuilder.Build(user);
-            return new GetUserProfileUseCase(loggedUser,mapper);
+            return new GetUserProfileUseCase(loggedUser, mapper);
         }
     }
 }

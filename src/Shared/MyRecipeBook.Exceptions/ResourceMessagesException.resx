@@ -117,6 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="COOKING_TIME_NOT_SUPPORTED" xml:space="preserve">
+    <value>The added cooking time is not suported.</value>
+  </data>
+  <data name="DIFFICULTY_LEVEL_NOT_SUPPORTED" xml:space="preserve">
+    <value>The added difficulty is not suported.</value>
+  </data>
   <data name="EMAIL_EMPTY" xml:space="preserve">
     <value>The email can't be empty</value>
   </data>
@@ -144,13 +150,16 @@
   <data name="PASSWORD_NOT_GREAT_THEN_SIX_CHARACTERS" xml:space="preserve">
     <value>The password is not long enought</value>
   </data>
+  <data name="RECIPE_TITLE_EMPTY" xml:space="preserve">
+    <value>The title of the recipe can't be empty.</value>
+  </data>
   <data name="REPEATED_EMAIL" xml:space="preserve">
     <value>The email already exists.</value>
   </data>
   <data name="UNKOWN_ERROR" xml:space="preserve">
-    <value>Unkonw error</value>
+    <value>Unkonw error.</value>
   </data>
   <data name="USER_WITHOUT_PERMISSION_ACCESS_RESOURCE" xml:space="preserve">
-    <value>No user identifier was found or user is not active</value>
+    <value>No user identifier was found or user is not active.</value>
   </data>
 </root>
