@@ -117,11 +117,20 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AT_LEAST_ONE_INGREDIENT" xml:space="preserve">
+    <value>Por favor adicione pelo menos um ingrediente</value>
+  </data>
+  <data name="AT_LEAST_ONE_INSTRUCTION" xml:space="preserve">
+    <value>Por favor adicione pelo menos uma instrução.</value>
+  </data>
   <data name="COOKING_TIME_NOT_SUPPORTED" xml:space="preserve">
     <value>O tempo de preparo da receita adicionado não é valido.</value>
   </data>
   <data name="DIFFICULTY_LEVEL_NOT_SUPPORTED" xml:space="preserve">
     <value>A dificuldade adicionada não é valida.</value>
+  </data>
+  <data name="DISH_TYPE_NOT_SUPPORTED" xml:space="preserve">
+    <value>O tipo de prato não é suportado.</value>
   </data>
   <data name="EMAIL_EMPTY" xml:space="preserve">
     <value>O email não pode ser vazio.</value>
@@ -132,8 +141,20 @@
   <data name="EMAIL_WRONG_FORMAT" xml:space="preserve">
     <value>O email está no formato errado</value>
   </data>
+  <data name="INGREDIENT_EMPTY" xml:space="preserve">
+    <value>O ingrediente não pode ser vazio.</value>
+  </data>
+  <data name="INSTRUCTION_EMPTY" xml:space="preserve">
+    <value>As instruções não podem ser vazias.</value>
+  </data>
+  <data name="INSTRUCTION_EXCEEDS_LIMIT_CHARACTERS" xml:space="preserve">
+    <value>As instruções excedem o numero de palavras</value>
+  </data>
   <data name="NAME_EMPTY" xml:space="preserve">
     <value>O nome não pode estar vazio.</value>
+  </data>
+  <data name="NON_NEGATIVE_INSTRUCTION_STEP" xml:space="preserve">
+    <value>Os passos não podem ser vazios</value>
   </data>
   <data name="NO_TOKEN" xml:space="preserve">
     <value>Nenhum token recebido</value>
@@ -155,6 +176,9 @@
   </data>
   <data name="REPEATED_EMAIL" xml:space="preserve">
     <value>O email já existe</value>
+  </data>
+  <data name="TWO_OR_MORE_INSTRUCTIONS_SAME_ORDER" xml:space="preserve">
+    <value>Há uma ou mais instruções duplicadas</value>
   </data>
   <data name="UNKOWN_ERROR" xml:space="preserve">
     <value>Erro Desconhecido</value>

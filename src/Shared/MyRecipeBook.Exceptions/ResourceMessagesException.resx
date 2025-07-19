@@ -117,11 +117,20 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AT_LEAST_ONE_INGREDIENT" xml:space="preserve">
+    <value>Please add at least one ingredient.</value>
+  </data>
+  <data name="AT_LEAST_ONE_INSTRUCTION" xml:space="preserve">
+    <value>Please add at least one instruction.</value>
+  </data>
   <data name="COOKING_TIME_NOT_SUPPORTED" xml:space="preserve">
     <value>The added cooking time is not suported.</value>
   </data>
   <data name="DIFFICULTY_LEVEL_NOT_SUPPORTED" xml:space="preserve">
     <value>The added difficulty is not suported.</value>
+  </data>
+  <data name="DISH_TYPE_NOT_SUPPORTED" xml:space="preserve">
+    <value>The input dish type is not supported</value>
   </data>
   <data name="EMAIL_EMPTY" xml:space="preserve">
     <value>The email can't be empty</value>
@@ -132,8 +141,20 @@
   <data name="EMAIL_WRONG_FORMAT" xml:space="preserve">
     <value>The email is in wrong format</value>
   </data>
+  <data name="INGREDIENT_EMPTY" xml:space="preserve">
+    <value>The ingredient must not be empty</value>
+  </data>
+  <data name="INSTRUCTION_EMPTY" xml:space="preserve">
+    <value>The instruction must not be empty</value>
+  </data>
+  <data name="INSTRUCTION_EXCEEDS_LIMIT_CHARACTERS" xml:space="preserve">
+    <value>The instruction exceeds the limit os characters</value>
+  </data>
   <data name="NAME_EMPTY" xml:space="preserve">
     <value>The name can't be empty.</value>
+  </data>
+  <data name="NON_NEGATIVE_INSTRUCTION_STEP" xml:space="preserve">
+    <value>The steps must not be empty</value>
   </data>
   <data name="NO_TOKEN" xml:space="preserve">
     <value>No token have been recived</value>
@@ -155,6 +176,9 @@
   </data>
   <data name="REPEATED_EMAIL" xml:space="preserve">
     <value>The email already exists.</value>
+  </data>
+  <data name="TWO_OR_MORE_INSTRUCTIONS_SAME_ORDER" xml:space="preserve">
+    <value>There is one or more instructions duplicated</value>
   </data>
   <data name="UNKOWN_ERROR" xml:space="preserve">
     <value>Unkonw error.</value>

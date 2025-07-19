@@ -9,6 +9,6 @@ namespace MyRecipeBook.Communication.Requests
         public Difficulty? Difficulty {  get; set; }
         public IList<string> Ingredients { get; set; } = [];
         public IList<RequestInstructionJson> Instructions { get; set; } = [];
-        public IList<DishType> DyshTypes { get; set; } = [];
+        public IList<DishType> DishTypes { get; set; } = [];
     }
 }

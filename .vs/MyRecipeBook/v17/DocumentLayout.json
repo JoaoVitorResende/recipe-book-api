@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "E:\\Git\\recipe-book-api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{21895B38-0341-40E5-9E76-CB2B75CDA19B}|tests\\Validator.Test\\Validator.Test.csproj|e:\\git\\recipe-book-api\\tests\\validator.test\\recipe\\recipevalidatortest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21895B38-0341-40E5-9E76-CB2B75CDA19B}|tests\\Validator.Test\\Validator.Test.csproj|solutionrelative:tests\\validator.test\\recipe\\recipevalidatortest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{381F8419-676D-4ECB-AB24-A2D8BC091BE5}|src\\Shared\\MyRecipeBook.Exceptions\\MyRecipeBook.Exceptions.csproj|e:\\git\\recipe-book-api\\src\\shared\\myrecipebook.exceptions\\resourcemessagesexception.fr.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{381F8419-676D-4ECB-AB24-A2D8BC091BE5}|src\\Shared\\MyRecipeBook.Exceptions\\MyRecipeBook.Exceptions.csproj|solutionrelative:src\\shared\\myrecipebook.exceptions\\resourcemessagesexception.fr.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7312FADB-ABA9-4DC4-A3E5-B6100C471E02}|tests\\CommonTestsUtilities\\CommonTestsUtilities.csproj|e:\\git\\recipe-book-api\\tests\\commontestsutilities\\requests\\requestrecipejsonbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7312FADB-ABA9-4DC4-A3E5-B6100C471E02}|tests\\CommonTestsUtilities\\CommonTestsUtilities.csproj|solutionrelative:tests\\commontestsutilities\\requests\\requestrecipejsonbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{381F8419-676D-4ECB-AB24-A2D8BC091BE5}|src\\Shared\\MyRecipeBook.Exceptions\\MyRecipeBook.Exceptions.csproj|e:\\git\\recipe-book-api\\src\\shared\\myrecipebook.exceptions\\resourcemessagesexception.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{381F8419-676D-4ECB-AB24-A2D8BC091BE5}|src\\Shared\\MyRecipeBook.Exceptions\\MyRecipeBook.Exceptions.csproj|solutionrelative:src\\shared\\myrecipebook.exceptions\\resourcemessagesexception.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{381F8419-676D-4ECB-AB24-A2D8BC091BE5}|src\\Shared\\MyRecipeBook.Exceptions\\MyRecipeBook.Exceptions.csproj|e:\\git\\recipe-book-api\\src\\shared\\myrecipebook.exceptions\\resourcemessagesexception.pt-pt.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{381F8419-676D-4ECB-AB24-A2D8BC091BE5}|src\\Shared\\MyRecipeBook.Exceptions\\MyRecipeBook.Exceptions.csproj|solutionrelative:src\\shared\\myrecipebook.exceptions\\resourcemessagesexception.pt-pt.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{381F8419-676D-4ECB-AB24-A2D8BC091BE5}|src\\Shared\\MyRecipeBook.Exceptions\\MyRecipeBook.Exceptions.csproj|e:\\git\\recipe-book-api\\src\\shared\\myrecipebook.exceptions\\resourcemessagesexception.pt-br.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{381F8419-676D-4ECB-AB24-A2D8BC091BE5}|src\\Shared\\MyRecipeBook.Exceptions\\MyRecipeBook.Exceptions.csproj|solutionrelative:src\\shared\\myrecipebook.exceptions\\resourcemessagesexception.pt-br.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{540BAC00-30D7-4B46-AF5D-4E41DC9F62A5}|src\\Backend\\MyRecipeBook.Application\\MyRecipeBook.Application.csproj|e:\\git\\recipe-book-api\\src\\backend\\myrecipebook.application\\usecases\\recipe\\register\\recipevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{540BAC00-30D7-4B46-AF5D-4E41DC9F62A5}|src\\Backend\\MyRecipeBook.Application\\MyRecipeBook.Application.csproj|solutionrelative:src\\backend\\myrecipebook.application\\usecases\\recipe\\register\\recipevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +30,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RequestRecipeJsonBuilder.cs",
-              "DocumentMoniker": "E:\\Git\\recipe-book-api\\tests\\CommonTestsUtilities\\Requests\\RequestRecipeJsonBuilder.cs",
-              "RelativeDocumentMoniker": "tests\\CommonTestsUtilities\\Requests\\RequestRecipeJsonBuilder.cs",
-              "ToolTip": "E:\\Git\\recipe-book-api\\tests\\CommonTestsUtilities\\Requests\\RequestRecipeJsonBuilder.cs",
-              "RelativeToolTip": "tests\\CommonTestsUtilities\\Requests\\RequestRecipeJsonBuilder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T19:34:13.631Z",
+              "DocumentIndex": 3,
+              "Title": "ResourceMessagesException.pt-BR.resx",
+              "DocumentMoniker": "E:\\Git\\recipe-book-api\\src\\Shared\\MyRecipeBook.Exceptions\\ResourceMessagesException.pt-BR.resx",
+              "RelativeDocumentMoniker": "src\\Shared\\MyRecipeBook.Exceptions\\ResourceMessagesException.pt-BR.resx",
+              "ToolTip": "E:\\Git\\recipe-book-api\\src\\Shared\\MyRecipeBook.Exceptions\\ResourceMessagesException.pt-BR.resx",
+              "RelativeToolTip": "src\\Shared\\MyRecipeBook.Exceptions\\ResourceMessagesException.pt-BR.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-07-19T12:29:33.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ResourceMessagesException.pt-PT.resx",
+              "DocumentMoniker": "E:\\Git\\recipe-book-api\\src\\Shared\\MyRecipeBook.Exceptions\\ResourceMessagesException.pt-PT.resx",
+              "RelativeDocumentMoniker": "src\\Shared\\MyRecipeBook.Exceptions\\ResourceMessagesException.pt-PT.resx",
+              "ToolTip": "E:\\Git\\recipe-book-api\\src\\Shared\\MyRecipeBook.Exceptions\\ResourceMessagesException.pt-PT.resx",
+              "RelativeToolTip": "src\\Shared\\MyRecipeBook.Exceptions\\ResourceMessagesException.pt-PT.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-07-19T12:29:14.254Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RecipeValidatorTest.cs",
-              "DocumentMoniker": "E:\\Git\\recipe-book-api\\tests\\Validator.Test\\Recipe\\RecipeValidatorTest.cs",
-              "RelativeDocumentMoniker": "tests\\Validator.Test\\Recipe\\RecipeValidatorTest.cs",
-              "ToolTip": "E:\\Git\\recipe-book-api\\tests\\Validator.Test\\Recipe\\RecipeValidatorTest.cs",
-              "RelativeToolTip": "tests\\Validator.Test\\Recipe\\RecipeValidatorTest.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAADwvzgAAAAmAAAAAAAAAA==",
+              "Title": "ResourceMessagesException.fr.resx",
+              "DocumentMoniker": "E:\\Git\\recipe-book-api\\src\\Shared\\MyRecipeBook.Exceptions\\ResourceMessagesException.fr.resx",
+              "RelativeDocumentMoniker": "src\\Shared\\MyRecipeBook.Exceptions\\ResourceMessagesException.fr.resx",
+              "ToolTip": "E:\\Git\\recipe-book-api\\src\\Shared\\MyRecipeBook.Exceptions\\ResourceMessagesException.fr.resx",
+              "RelativeToolTip": "src\\Shared\\MyRecipeBook.Exceptions\\ResourceMessagesException.fr.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-07-19T12:28:59.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ResourceMessagesException.resx",
+              "DocumentMoniker": "E:\\Git\\recipe-book-api\\src\\Shared\\MyRecipeBook.Exceptions\\ResourceMessagesException.resx",
+              "RelativeDocumentMoniker": "src\\Shared\\MyRecipeBook.Exceptions\\ResourceMessagesException.resx",
+              "ToolTip": "E:\\Git\\recipe-book-api\\src\\Shared\\MyRecipeBook.Exceptions\\ResourceMessagesException.resx",
+              "RelativeToolTip": "src\\Shared\\MyRecipeBook.Exceptions\\ResourceMessagesException.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-07-19T12:28:09.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RecipeValidator.cs",
+              "DocumentMoniker": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBook.Application\\UseCases\\Recipe\\Register\\RecipeValidator.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\MyRecipeBook.Application\\UseCases\\Recipe\\Register\\RecipeValidator.cs",
+              "ToolTip": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBook.Application\\UseCases\\Recipe\\Register\\RecipeValidator.cs",
+              "RelativeToolTip": "src\\Backend\\MyRecipeBook.Application\\UseCases\\Recipe\\Register\\RecipeValidator.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAvwB0AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T19:32:25.356Z",
+              "WhenOpened": "2025-07-19T12:23:12.083Z",
               "EditorCaption": ""
             }
           ]
