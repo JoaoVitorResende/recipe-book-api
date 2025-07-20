@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\Git\\recipe-book-api\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{540BAC00-30D7-4B46-AF5D-4E41DC9F62A5}|src\\Backend\\MyRecipeBook.Application\\MyRecipeBook.Application.csproj|e:\\git\\recipe-book-api\\src\\backend\\myrecipebook.application\\sharedvalidators\\passwordvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{540BAC00-30D7-4B46-AF5D-4E41DC9F62A5}|src\\Backend\\MyRecipeBook.Application\\MyRecipeBook.Application.csproj|solutionrelative:src\\backend\\myrecipebook.application\\sharedvalidators\\passwordvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{21895B38-0341-40E5-9E76-CB2B75CDA19B}|tests\\Validator.Test\\Validator.Test.csproj|e:\\git\\recipe-book-api\\tests\\validator.test\\recipe\\recipevalidatortest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21895B38-0341-40E5-9E76-CB2B75CDA19B}|tests\\Validator.Test\\Validator.Test.csproj|solutionrelative:tests\\validator.test\\recipe\\recipevalidatortest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,32 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RequestRecipeJsonBuilder.cs",
-              "DocumentMoniker": "E:\\Git\\recipe-book-api\\tests\\CommonTestsUtilities\\Requests\\RequestRecipeJsonBuilder.cs",
-              "RelativeDocumentMoniker": "tests\\CommonTestsUtilities\\Requests\\RequestRecipeJsonBuilder.cs",
-              "ToolTip": "E:\\Git\\recipe-book-api\\tests\\CommonTestsUtilities\\Requests\\RequestRecipeJsonBuilder.cs",
-              "RelativeToolTip": "tests\\CommonTestsUtilities\\Requests\\RequestRecipeJsonBuilder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABcAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "PasswordValidator.cs",
+              "DocumentMoniker": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBook.Application\\SharedValidators\\PasswordValidator.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\MyRecipeBook.Application\\SharedValidators\\PasswordValidator.cs",
+              "ToolTip": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBook.Application\\SharedValidators\\PasswordValidator.cs",
+              "RelativeToolTip": "src\\Backend\\MyRecipeBook.Application\\SharedValidators\\PasswordValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T19:34:13.631Z",
+              "WhenOpened": "2025-07-20T13:08:42.775Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "RecipeValidatorTest.cs",
               "DocumentMoniker": "E:\\Git\\recipe-book-api\\tests\\Validator.Test\\Recipe\\RecipeValidatorTest.cs",
               "RelativeDocumentMoniker": "tests\\Validator.Test\\Recipe\\RecipeValidatorTest.cs",
               "ToolTip": "E:\\Git\\recipe-book-api\\tests\\Validator.Test\\Recipe\\RecipeValidatorTest.cs",
               "RelativeToolTip": "tests\\Validator.Test\\Recipe\\RecipeValidatorTest.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAADwvzgAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAwwEgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T19:32:25.356Z",
+              "WhenOpened": "2025-07-20T12:56:24.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RequestRecipeJsonBuilder.cs",
+              "DocumentMoniker": "E:\\Git\\recipe-book-api\\tests\\CommonTestsUtilities\\Requests\\RequestRecipeJsonBuilder.cs",
+              "RelativeDocumentMoniker": "tests\\CommonTestsUtilities\\Requests\\RequestRecipeJsonBuilder.cs",
+              "ToolTip": "E:\\Git\\recipe-book-api\\tests\\CommonTestsUtilities\\Requests\\RequestRecipeJsonBuilder.cs",
+              "RelativeToolTip": "tests\\CommonTestsUtilities\\Requests\\RequestRecipeJsonBuilder.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T12:50:03.11Z",
               "EditorCaption": ""
             }
           ]

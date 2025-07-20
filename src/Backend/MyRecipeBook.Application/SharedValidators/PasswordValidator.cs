@@ -15,7 +15,7 @@ namespace MyRecipeBook.Application.SharedValidators
             }
             if (password.Length < 6)
             {
-                context.MessageFormatter.AppendArgument("ErrorMessage", ResourceMessagesException.PASSWORD_INVALID);
+                context.MessageFormatter.AppendArgument("ErrorMessage", ResourceMessagesException.PASSWORD_NOT_GREAT_THEN_SIX_CHARACTERS);
                 return false;
             }
             return true;
