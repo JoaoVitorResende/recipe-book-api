@@ -38,7 +38,7 @@ namespace MyRecipeBook.Application.UseCases.Recipe.Register
             recipe.Instructions = _mapper.Map<IList<Domain.Entities.Instruction>>(instructions);
             await _repository.Add(recipe);
             await _unityOfWork.Commit();
-            return _mapper.Map<ResponseRegistredRecipeJson>(request);
+            return _mapper.Map<ResponseRegistredRecipeJson>(recipe);
         }
         private void Validate(RequestRecipeJson request) 
         {
