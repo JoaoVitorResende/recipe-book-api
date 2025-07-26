@@ -3,7 +3,7 @@
 namespace MyRecipeBook.Domain.Entities
 {
     [Table("Instructions")]
-    public class Instruction
+    public class Instruction : EntityBase
     {
         public int Step { get; set; }
         public string Text { get; set; } = string.Empty;
