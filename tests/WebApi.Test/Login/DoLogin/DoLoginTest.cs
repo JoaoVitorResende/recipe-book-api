@@ -25,7 +25,7 @@ namespace WebApi.Test.Login.DoLogin
                 Email = _email,
                 Password = _password
             };
-            var response = await DoPost(_method, request);
+            var response = await DoPost(method:_method,request: request);
             Assert.Equal(HttpStatusCode.OK, response.StatusCode);
             await using var responseBody = await response.Content.ReadAsStreamAsync();
             var responseData = await JsonDocument.ParseAsync(responseBody);

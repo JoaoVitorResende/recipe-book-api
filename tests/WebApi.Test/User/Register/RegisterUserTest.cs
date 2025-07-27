@@ -14,7 +14,7 @@ namespace WebApi.Test.User.Register
         {
             //middleware brake this code but in browser it works..
             var request = RequestRegisterUserJsonBuilder.Build();
-            var response = await DoPost("User", request);
+            var response = await DoPost(method:"User", request:request);
             Assert.Equal(HttpStatusCode.Created, response.StatusCode);
             await using var responseBody = await response.Content.ReadAsStreamAsync();
             var responseData = await JsonDocument.ParseAsync(responseBody);

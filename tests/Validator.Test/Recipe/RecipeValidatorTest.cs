@@ -149,7 +149,7 @@ namespace Validator.Test.Recipe
             Assert.False(result.IsValid);
             Assert.Equal(result.Errors[0].ErrorMessage, ResourceMessagesException.INSTRUCTION_EMPTY);
         }
-        /*[Fact]
+        [Fact]
         public void Error_Instructions_Too_Long()
         {
             var request = RequestRecipeJsonBuilder.Build();
@@ -158,6 +158,6 @@ namespace Validator.Test.Recipe
             var result = validator.Validate(request);
             Assert.False(result.IsValid);
             Assert.Equal(result.Errors[0].ErrorMessage, ResourceMessagesException.INSTRUCTION_EXCEEDS_LIMIT_CHARACTERS);
-        }*/
+        }
     }
 }
