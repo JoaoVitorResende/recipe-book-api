@@ -1,6 +1,9 @@
-﻿namespace MyRecipeBook.Domain.Entities
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace MyRecipeBook.Domain.Entities
 {
-    public class Instruction
+    [Table("Instructions")]
+    public class Instruction : EntityBase
     {
         public int Step { get; set; }
         public string Text { get; set; } = string.Empty;
