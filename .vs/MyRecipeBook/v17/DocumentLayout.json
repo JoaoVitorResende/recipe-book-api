@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "E:\\Git\\recipe-book-api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{44FAE871-1B9B-40CB-96DC-A1CE5DBEB9D2}|tests\\WebApi.Test\\WebApi.Test.csproj|e:\\git\\recipe-book-api\\tests\\webapi.test\\recipe\\recipe\\registerrecipetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FAE871-1B9B-40CB-96DC-A1CE5DBEB9D2}|tests\\WebApi.Test\\WebApi.Test.csproj|solutionrelative:tests\\webapi.test\\recipe\\recipe\\registerrecipetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F3F33243-78FD-4C0C-85A7-40E121F25E62}|src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj|e:\\git\\recipe-book-api\\src\\backend\\myrecipebook.api\\controllers\\recipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F33243-78FD-4C0C-85A7-40E121F25E62}|src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj|solutionrelative:src\\backend\\myrecipebook.api\\controllers\\recipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44FAE871-1B9B-40CB-96DC-A1CE5DBEB9D2}|tests\\WebApi.Test\\WebApi.Test.csproj|e:\\git\\recipe-book-api\\tests\\webapi.test\\myrecipebookclassfixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FAE871-1B9B-40CB-96DC-A1CE5DBEB9D2}|tests\\WebApi.Test\\WebApi.Test.csproj|solutionrelative:tests\\webapi.test\\myrecipebookclassfixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{540BAC00-30D7-4B46-AF5D-4E41DC9F62A5}|src\\Backend\\MyRecipeBook.Application\\MyRecipeBook.Application.csproj|e:\\git\\recipe-book-api\\src\\backend\\myrecipebook.application\\usecases\\recipe\\filter\\filterrecipeusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{540BAC00-30D7-4B46-AF5D-4E41DC9F62A5}|src\\Backend\\MyRecipeBook.Application\\MyRecipeBook.Application.csproj|solutionrelative:src\\backend\\myrecipebook.application\\usecases\\recipe\\filter\\filterrecipeusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44FAE871-1B9B-40CB-96DC-A1CE5DBEB9D2}|tests\\WebApi.Test\\WebApi.Test.csproj|e:\\git\\recipe-book-api\\tests\\webapi.test\\user\\register\\registerusertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FAE871-1B9B-40CB-96DC-A1CE5DBEB9D2}|tests\\WebApi.Test\\WebApi.Test.csproj|solutionrelative:tests\\webapi.test\\user\\register\\registerusertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FDF224B7-DFC9-493F-AD8F-4206A3BC2326}|src\\Shared\\MyRecipeBook.Communication\\MyRecipeBook.Communication.csproj|e:\\git\\recipe-book-api\\src\\shared\\myrecipebook.communication\\responses\\responserecipesjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF224B7-DFC9-493F-AD8F-4206A3BC2326}|src\\Shared\\MyRecipeBook.Communication\\MyRecipeBook.Communication.csproj|solutionrelative:src\\shared\\myrecipebook.communication\\responses\\responserecipesjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF224B7-DFC9-493F-AD8F-4206A3BC2326}|src\\Shared\\MyRecipeBook.Communication\\MyRecipeBook.Communication.csproj|e:\\git\\recipe-book-api\\src\\shared\\myrecipebook.communication\\responses\\responseshortrecipejson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF224B7-DFC9-493F-AD8F-4206A3BC2326}|src\\Shared\\MyRecipeBook.Communication\\MyRecipeBook.Communication.csproj|solutionrelative:src\\shared\\myrecipebook.communication\\responses\\responseshortrecipejson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF224B7-DFC9-493F-AD8F-4206A3BC2326}|src\\Shared\\MyRecipeBook.Communication\\MyRecipeBook.Communication.csproj|e:\\git\\recipe-book-api\\src\\shared\\myrecipebook.communication\\requests\\requestfilterrecipejson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF224B7-DFC9-493F-AD8F-4206A3BC2326}|src\\Shared\\MyRecipeBook.Communication\\MyRecipeBook.Communication.csproj|solutionrelative:src\\shared\\myrecipebook.communication\\requests\\requestfilterrecipejson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RegisterUserTest.cs",
-              "DocumentMoniker": "E:\\Git\\recipe-book-api\\tests\\WebApi.Test\\User\\Register\\RegisterUserTest.cs",
-              "RelativeDocumentMoniker": "tests\\WebApi.Test\\User\\Register\\RegisterUserTest.cs",
-              "ToolTip": "E:\\Git\\recipe-book-api\\tests\\WebApi.Test\\User\\Register\\RegisterUserTest.cs",
-              "RelativeToolTip": "tests\\WebApi.Test\\User\\Register\\RegisterUserTest.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAADgvxAAAABIAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ResponseShortRecipeJson.cs",
+              "DocumentMoniker": "E:\\Git\\recipe-book-api\\src\\Shared\\MyRecipeBook.Communication\\Responses\\ResponseShortRecipeJson.cs",
+              "RelativeDocumentMoniker": "src\\Shared\\MyRecipeBook.Communication\\Responses\\ResponseShortRecipeJson.cs",
+              "ToolTip": "E:\\Git\\recipe-book-api\\src\\Shared\\MyRecipeBook.Communication\\Responses\\ResponseShortRecipeJson.cs",
+              "RelativeToolTip": "src\\Shared\\MyRecipeBook.Communication\\Responses\\ResponseShortRecipeJson.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T22:53:49.66Z",
+              "WhenOpened": "2025-07-28T23:29:32.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ResponseRecipesJson.cs",
+              "DocumentMoniker": "E:\\Git\\recipe-book-api\\src\\Shared\\MyRecipeBook.Communication\\Responses\\ResponseRecipesJson.cs",
+              "RelativeDocumentMoniker": "src\\Shared\\MyRecipeBook.Communication\\Responses\\ResponseRecipesJson.cs",
+              "ToolTip": "E:\\Git\\recipe-book-api\\src\\Shared\\MyRecipeBook.Communication\\Responses\\ResponseRecipesJson.cs",
+              "RelativeToolTip": "src\\Shared\\MyRecipeBook.Communication\\Responses\\ResponseRecipesJson.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T23:16:37.677Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MyRecipeBookClassFixture.cs",
-              "DocumentMoniker": "E:\\Git\\recipe-book-api\\tests\\WebApi.Test\\MyRecipeBookClassFixture.cs",
-              "RelativeDocumentMoniker": "tests\\WebApi.Test\\MyRecipeBookClassFixture.cs",
-              "ToolTip": "E:\\Git\\recipe-book-api\\tests\\WebApi.Test\\MyRecipeBookClassFixture.cs",
-              "RelativeToolTip": "tests\\WebApi.Test\\MyRecipeBookClassFixture.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Title": "FilterRecipeUseCase.cs",
+              "DocumentMoniker": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBook.Application\\UseCases\\Recipe\\Filter\\FilterRecipeUseCase.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\MyRecipeBook.Application\\UseCases\\Recipe\\Filter\\FilterRecipeUseCase.cs",
+              "ToolTip": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBook.Application\\UseCases\\Recipe\\Filter\\FilterRecipeUseCase.cs",
+              "RelativeToolTip": "src\\Backend\\MyRecipeBook.Application\\UseCases\\Recipe\\Filter\\FilterRecipeUseCase.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAkwBkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T22:52:57.317Z",
+              "WhenOpened": "2025-07-28T23:23:46.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RequestFilterRecipeJson.cs",
+              "DocumentMoniker": "E:\\Git\\recipe-book-api\\src\\Shared\\MyRecipeBook.Communication\\Requests\\RequestFilterRecipeJson.cs",
+              "RelativeDocumentMoniker": "src\\Shared\\MyRecipeBook.Communication\\Requests\\RequestFilterRecipeJson.cs",
+              "ToolTip": "E:\\Git\\recipe-book-api\\src\\Shared\\MyRecipeBook.Communication\\Requests\\RequestFilterRecipeJson.cs",
+              "RelativeToolTip": "src\\Shared\\MyRecipeBook.Communication\\Requests\\RequestFilterRecipeJson.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T23:22:56.113Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RegisterRecipeTest.cs",
-              "DocumentMoniker": "E:\\Git\\recipe-book-api\\tests\\WebApi.Test\\Recipe\\Recipe\\RegisterRecipeTest.cs",
-              "RelativeDocumentMoniker": "tests\\WebApi.Test\\Recipe\\Recipe\\RegisterRecipeTest.cs",
-              "ToolTip": "E:\\Git\\recipe-book-api\\tests\\WebApi.Test\\Recipe\\Recipe\\RegisterRecipeTest.cs",
-              "RelativeToolTip": "tests\\WebApi.Test\\Recipe\\Recipe\\RegisterRecipeTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "Title": "RecipeController.cs",
+              "DocumentMoniker": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBook.API\\Controllers\\RecipeController.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\MyRecipeBook.API\\Controllers\\RecipeController.cs",
+              "ToolTip": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBook.API\\Controllers\\RecipeController.cs",
+              "RelativeToolTip": "src\\Backend\\MyRecipeBook.API\\Controllers\\RecipeController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T22:42:24.821Z",
+              "WhenOpened": "2025-07-28T23:10:12.788Z",
               "EditorCaption": ""
             }
           ]
