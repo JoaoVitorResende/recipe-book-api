@@ -17,7 +17,7 @@ namespace MyRecipeBook.Infrastructure.DataAccess.Repositories
 
         public async Task<IList<Recipe>> Filter(User user, FilterRecipesDto filters)
         {
-            var query = _dbContext.Recipes.AsNoTracking().Where(recipe => recipe.Active && recipe.UserId == user.Id);
+            var query = _dbContext.Recipes.AsNoTracking().Include(recipe => recipe.Ingredients).Where(recipe => recipe.Active && recipe.UserId == user.Id);
             if(filters.Difficulties.Any())
             {
                 query = query.Where(recipe => recipe.Difficulty.HasValue && filters.Difficulties.Contains(recipe.Difficulty.Value));
