@@ -49,6 +49,7 @@ namespace MyRecipeBook.Infrastructure
             services.AddScoped<IUserUpdateOnlyRepository, UserRepository>();
             services.AddScoped<IUserReadOnlyRepository, UserRepository>();
             services.AddScoped<IRecipeWriteOnlyRepository, RecipeRepository>();
+            services.AddScoped<IRecipeReadOnlyRepository, RecipeRepository>();
         }
         private static void SaveRepositories(IServiceCollection services) => services.AddScoped<IUnityOfWork, UnityOfWork>();
         private static void AddFluentMigrator(this IServiceCollection services, IConfiguration configuration)
