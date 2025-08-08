@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "E:\\Git\\recipe-book-api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7312FADB-ABA9-4DC4-A3E5-B6100C471E02}|tests\\CommonTestsUtilities\\CommonTestsUtilities.csproj|e:\\git\\recipe-book-api\\tests\\commontestsutilities\\repositories\\recipereadonlyrepositorybuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7312FADB-ABA9-4DC4-A3E5-B6100C471E02}|tests\\CommonTestsUtilities\\CommonTestsUtilities.csproj|solutionrelative:tests\\commontestsutilities\\repositories\\recipereadonlyrepositorybuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44FAE871-1B9B-40CB-96DC-A1CE5DBEB9D2}|tests\\WebApi.Test\\WebApi.Test.csproj|e:\\git\\recipe-book-api\\tests\\webapi.test\\recipe\\filter\\filterrecipetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FAE871-1B9B-40CB-96DC-A1CE5DBEB9D2}|tests\\WebApi.Test\\WebApi.Test.csproj|solutionrelative:tests\\webapi.test\\recipe\\filter\\filterrecipetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RecipeReadOnlyRepositoryBuilder.cs",
-              "DocumentMoniker": "E:\\Git\\recipe-book-api\\tests\\CommonTestsUtilities\\Repositories\\RecipeReadOnlyRepositoryBuilder.cs",
-              "RelativeDocumentMoniker": "tests\\CommonTestsUtilities\\Repositories\\RecipeReadOnlyRepositoryBuilder.cs",
-              "ToolTip": "E:\\Git\\recipe-book-api\\tests\\CommonTestsUtilities\\Repositories\\RecipeReadOnlyRepositoryBuilder.cs",
-              "RelativeToolTip": "tests\\CommonTestsUtilities\\Repositories\\RecipeReadOnlyRepositoryBuilder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Title": "FilterRecipeTests.cs",
+              "DocumentMoniker": "E:\\Git\\recipe-book-api\\tests\\WebApi.Test\\Recipe\\Filter\\FilterRecipeTests.cs",
+              "RelativeDocumentMoniker": "tests\\WebApi.Test\\Recipe\\Filter\\FilterRecipeTests.cs",
+              "ToolTip": "E:\\Git\\recipe-book-api\\tests\\WebApi.Test\\Recipe\\Filter\\FilterRecipeTests.cs",
+              "RelativeToolTip": "tests\\WebApi.Test\\Recipe\\Filter\\FilterRecipeTests.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-06T22:37:49.366Z",
+              "WhenOpened": "2025-08-08T18:14:38.896Z",
               "EditorCaption": ""
             }
           ]
