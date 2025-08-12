@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MyRecipeBook.API.Attributes;
 using MyRecipeBook.Application.UseCases.Recipe.Filter;
+using MyRecipeBook.Application.UseCases.Recipe.Find;
 using MyRecipeBook.Application.UseCases.Recipe.Register;
 using MyRecipeBook.Communication.Requests;
 using MyRecipeBook.Communication.Responses;
@@ -33,6 +34,16 @@ namespace MyRecipeBook.API.Controllers
                 return Ok(response);
             }
             return NoContent();
+        }
+        [HttpGet]
+        [Route("{id}")]
+        [ProducesResponseType(typeof(ResponseRecipeJson), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ResponseErrorJson), StatusCodes.Status404NotFound)]
+        public async Task<IActionResult> GetById(
+            [FromServices] IGetRecipeByIdUseCase useCase,
+            [FromRoute] string id)
+        {
+            return Ok();
         }
     }
 }
