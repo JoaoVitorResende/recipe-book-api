@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MyRecipeBook.API.Attributes;
+using MyRecipeBook.API.Binders;
 using MyRecipeBook.Application.UseCases.Recipe.Filter;
 using MyRecipeBook.Application.UseCases.Recipe.Find;
 using MyRecipeBook.Application.UseCases.Recipe.Register;
@@ -41,9 +42,10 @@ namespace MyRecipeBook.API.Controllers
         [ProducesResponseType(typeof(ResponseErrorJson), StatusCodes.Status404NotFound)]
         public async Task<IActionResult> GetById(
             [FromServices] IGetRecipeByIdUseCase useCase,
-            [FromRoute] string id)
+            [FromRoute] [ModelBinder(typeof(MyRecipeBookIdBinder))]long id)
         {
-            return Ok();
+            var response = await useCase.Execute(id);
+            return Ok(response);
         }
     }
 }
