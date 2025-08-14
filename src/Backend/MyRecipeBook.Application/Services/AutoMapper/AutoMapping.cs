@@ -32,16 +32,21 @@ namespace MyRecipeBook.Application.Services.AutoMapper
         private void DomainToResponse()
         {
             CreateMap<Domain.Entities.User, ResponseUserProfileJson>();
+
             CreateMap<Domain.Entities.Recipe, ResponseRegistredRecipeJson>()
                 .ForMember(destine => destine.Id, config => config.MapFrom(source => _idEnconder.Encode(source.Id)));
+
             CreateMap<Domain.Entities.Recipe, ResponseShortRecipeJson>()
                .ForMember(destine => destine.Id, config => config.MapFrom(source => _idEnconder.Encode(source.Id)))
                .ForMember(destine => destine.AmountIngredients, config => config.MapFrom(source => source.Ingredients.Count));
+
             CreateMap<Domain.Entities.Recipe, ResponseRecipeJson>()
                 .ForMember(destine => destine.Id, config => config.MapFrom(source => _idEnconder.Encode(source.Id)))
                 .ForMember(dest => dest.DishTypes, opt => opt.MapFrom(source => source.DishTypes.Select(r => r.Type)));
+
             CreateMap<Domain.Entities.Ingredient, ResponseIngredientJson>()
                 .ForMember(dest => dest.Id, opt => opt.MapFrom(source => _idEnconder.Encode(source.Id)));
+
             CreateMap<Domain.Entities.Instruction, ResponseInstructionJson>()
                 .ForMember(dest => dest.Id, opt => opt.MapFrom(source => _idEnconder.Encode(source.Id)));
         }
