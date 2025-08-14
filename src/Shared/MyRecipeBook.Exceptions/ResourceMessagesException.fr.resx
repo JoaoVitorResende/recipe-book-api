@@ -171,6 +171,9 @@
   <data name="PASSWORD_NOT_GREAT_THEN_SIX_CHARACTERS" xml:space="preserve">
     <value>Le mot de passe comporte moins de six caractères</value>
   </data>
+  <data name="RECIPE_NOT_FOUND" xml:space="preserve">
+    <value>Recette non trouvée</value>
+  </data>
   <data name="RECIPE_TITLE_EMPTY" xml:space="preserve">
     <value>Le titre de la recette ne peut pas être vide</value>
   </data>
