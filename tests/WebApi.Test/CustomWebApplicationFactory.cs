@@ -6,6 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 using MyRecipeBook.Infrastructure.DataAccess;
 using MyRecipeBook.Domain.Enum;
 using CommonTestUtilities.Entities;
+using CommonTestsUtilities.IdEncripter;
 
 namespace WebApi.Test
 {
@@ -46,6 +47,7 @@ namespace WebApi.Test
         public string GetPassword() => _password;
         public string GetName() => _user.Name;
         public string GetRecipeTitle() => _recipe.Title;
+        public string GetRecipeId() => IdEncripterBuilder.Build().Encode(_recipe.Id);
         public Difficulty GetRecipeDifficulty() => _recipe.Difficulty!.Value;
         public CookingTime GetRecipeCookingTime() => _recipe.CookingTime!.Value;
         public Guid GetUserIdentifier() => _user.UserIdentifier;
