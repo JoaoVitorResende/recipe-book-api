@@ -9,10 +9,7 @@ namespace MyRecipeBook.Infrastructure.DataAccess.Repositories
     public class RecipeRepository : IRecipeWriteOnlyRepository, IRecipeReadOnlyRepository
     {
         private readonly MyrecipeBookDbContext _dbContext;
-        public RecipeRepository(MyrecipeBookDbContext dbContext)
-        {
-            _dbContext = dbContext;
-        }
+        public RecipeRepository(MyrecipeBookDbContext dbContext) => _dbContext = dbContext;
         public async Task Add(Recipe recipe) => await _dbContext.Recipes.AddAsync(recipe);
         public async Task<IList<Recipe>> Filter(User user, FilterRecipesDto filters)
         {
@@ -47,6 +44,11 @@ namespace MyRecipeBook.Infrastructure.DataAccess.Repositories
                 .Include(recipe => recipe.Instructions)
                 .Include(recipe => recipe.DishTypes)
                 .FirstOrDefaultAsync(recipe => recipe.Active && recipe.Id == recipeId && recipe.UserId == user.Id);
+        }
+        public async Task Delete(long recipeId)
+        {
+            var recipe = await _dbContext.Recipes.FindAsync(recipeId);
+            _dbContext.Recipes.Remove(recipe!);
         }
     }
 }
