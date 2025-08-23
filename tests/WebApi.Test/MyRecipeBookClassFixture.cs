@@ -1,5 +1,6 @@
 ﻿using System.Net.Http.Headers;
 using System.Net.Http.Json;
+using Azure.Core;
 
 namespace WebApi.Test
 {
@@ -24,6 +25,12 @@ namespace WebApi.Test
             ChangeRequestCulture(culture);
             AuthorizeRequest(token);
             return await _httpClient.GetAsync(method);
+        }
+        protected async Task<HttpResponseMessage> DoDelete(string method, string token = "", string culture = "en")
+        {
+            ChangeRequestCulture(culture);
+            AuthorizeRequest(token);
+            return await _httpClient.DeleteAsync(method);
         }
         private void ChangeRequestCulture(string culture)
         {
