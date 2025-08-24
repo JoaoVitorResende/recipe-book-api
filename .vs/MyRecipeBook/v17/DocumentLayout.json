@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "E:\\Git\\recipe-book-api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{44FAE871-1B9B-40CB-96DC-A1CE5DBEB9D2}|tests\\WebApi.Test\\WebApi.Test.csproj|e:\\git\\recipe-book-api\\tests\\webapi.test\\recipe\\delete\\deleterecipetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FAE871-1B9B-40CB-96DC-A1CE5DBEB9D2}|tests\\WebApi.Test\\WebApi.Test.csproj|solutionrelative:tests\\webapi.test\\recipe\\delete\\deleterecipetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F32ACDF6-D86A-48A9-93CF-C5C2EDC6DC14}|src\\Backend\\MyRecipeBool.Infrastructure\\MyRecipeBook.Infrastructure.csproj|e:\\git\\recipe-book-api\\src\\backend\\myrecipebool.infrastructure\\dataaccess\\repositories\\reciperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32ACDF6-D86A-48A9-93CF-C5C2EDC6DC14}|src\\Backend\\MyRecipeBool.Infrastructure\\MyRecipeBook.Infrastructure.csproj|solutionrelative:src\\backend\\myrecipebool.infrastructure\\dataaccess\\repositories\\reciperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44FAE871-1B9B-40CB-96DC-A1CE5DBEB9D2}|tests\\WebApi.Test\\WebApi.Test.csproj|e:\\git\\recipe-book-api\\tests\\webapi.test\\recipe\\delete\\deleterecipeinvalidtokentest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44FAE871-1B9B-40CB-96DC-A1CE5DBEB9D2}|tests\\WebApi.Test\\WebApi.Test.csproj|solutionrelative:tests\\webapi.test\\recipe\\delete\\deleterecipeinvalidtokentest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F068F922-A99D-4689-A0BD-A918E5EBCD15}|src\\Backend\\MyRecipeBook.Domain\\MyRecipeBook.Domain.csproj|e:\\git\\recipe-book-api\\src\\backend\\myrecipebook.domain\\repositories\\recipe\\irecipereadonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F068F922-A99D-4689-A0BD-A918E5EBCD15}|src\\Backend\\MyRecipeBook.Domain\\MyRecipeBook.Domain.csproj|solutionrelative:src\\backend\\myrecipebook.domain\\repositories\\recipe\\irecipereadonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F068F922-A99D-4689-A0BD-A918E5EBCD15}|src\\Backend\\MyRecipeBook.Domain\\MyRecipeBook.Domain.csproj|e:\\git\\recipe-book-api\\src\\backend\\myrecipebook.domain\\repositories\\recipe\\irecipeupdateonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F068F922-A99D-4689-A0BD-A918E5EBCD15}|src\\Backend\\MyRecipeBook.Domain\\MyRecipeBook.Domain.csproj|solutionrelative:src\\backend\\myrecipebook.domain\\repositories\\recipe\\irecipeupdateonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DeleteRecipeInvalidTokenTest.cs",
-              "DocumentMoniker": "E:\\Git\\recipe-book-api\\tests\\WebApi.Test\\Recipe\\Delete\\DeleteRecipeInvalidTokenTest.cs",
-              "RelativeDocumentMoniker": "tests\\WebApi.Test\\Recipe\\Delete\\DeleteRecipeInvalidTokenTest.cs",
-              "ToolTip": "E:\\Git\\recipe-book-api\\tests\\WebApi.Test\\Recipe\\Delete\\DeleteRecipeInvalidTokenTest.cs",
-              "RelativeToolTip": "tests\\WebApi.Test\\Recipe\\Delete\\DeleteRecipeInvalidTokenTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Title": "IRecipeReadOnlyRepository.cs",
+              "DocumentMoniker": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBook.Domain\\Repositories\\Recipe\\IRecipeReadOnlyRepository.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\MyRecipeBook.Domain\\Repositories\\Recipe\\IRecipeReadOnlyRepository.cs",
+              "ToolTip": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBook.Domain\\Repositories\\Recipe\\IRecipeReadOnlyRepository.cs",
+              "RelativeToolTip": "src\\Backend\\MyRecipeBook.Domain\\Repositories\\Recipe\\IRecipeReadOnlyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-23T12:29:19.785Z",
+              "WhenOpened": "2025-08-24T12:22:31.749Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DeleteRecipeTest.cs",
-              "DocumentMoniker": "E:\\Git\\recipe-book-api\\tests\\WebApi.Test\\Recipe\\Delete\\DeleteRecipeTest.cs",
-              "RelativeDocumentMoniker": "tests\\WebApi.Test\\Recipe\\Delete\\DeleteRecipeTest.cs",
-              "ToolTip": "E:\\Git\\recipe-book-api\\tests\\WebApi.Test\\Recipe\\Delete\\DeleteRecipeTest.cs",
-              "RelativeToolTip": "tests\\WebApi.Test\\Recipe\\Delete\\DeleteRecipeTest.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA0AAAAXAAAAAAAAAA==",
+              "Title": "RecipeRepository.cs",
+              "DocumentMoniker": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBool.Infrastructure\\DataAccess\\Repositories\\RecipeRepository.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\MyRecipeBool.Infrastructure\\DataAccess\\Repositories\\RecipeRepository.cs",
+              "ToolTip": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBool.Infrastructure\\DataAccess\\Repositories\\RecipeRepository.cs",
+              "RelativeToolTip": "src\\Backend\\MyRecipeBool.Infrastructure\\DataAccess\\Repositories\\RecipeRepository.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAwwCkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-23T12:26:49.103Z",
+              "WhenOpened": "2025-08-24T12:12:37.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IRecipeUpdateOnlyRepository.cs",
+              "DocumentMoniker": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBook.Domain\\Repositories\\Recipe\\IRecipeUpdateOnlyRepository.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\MyRecipeBook.Domain\\Repositories\\Recipe\\IRecipeUpdateOnlyRepository.cs",
+              "ToolTip": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBook.Domain\\Repositories\\Recipe\\IRecipeUpdateOnlyRepository.cs",
+              "RelativeToolTip": "src\\Backend\\MyRecipeBook.Domain\\Repositories\\Recipe\\IRecipeUpdateOnlyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T12:08:53.533Z",
               "EditorCaption": ""
             }
           ]
