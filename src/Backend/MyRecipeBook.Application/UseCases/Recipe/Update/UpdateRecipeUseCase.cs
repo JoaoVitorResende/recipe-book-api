@@ -1,13 +1,12 @@
-﻿using MyRecipeBook.Communication.Requests;
+﻿using AutoMapper;
+using MyRecipeBook.Application.UseCases.Recipe.Register;
+using MyRecipeBook.Communication.Requests;
+using MyRecipeBook.Domain.Extensions;
 using MyRecipeBook.Domain.Repositories.Recipe;
 using MyRecipeBook.Domain.Repositories.UnityOfWork;
 using MyRecipeBook.Domain.Services.LoggedUser;
-using MyRecipeBook.Exceptions.ExceptionBase;
 using MyRecipeBook.Exceptions;
-using AutoMapper;
-using MyRecipeBook.Application.UseCases.Recipe.Register;
-using MyRecipeBook.Domain.Extensions;
-using System.ComponentModel.DataAnnotations;
+using MyRecipeBook.Exceptions.ExceptionBase;
 
 namespace MyRecipeBook.Application.UseCases.Recipe.Update
 {
@@ -18,12 +17,12 @@ namespace MyRecipeBook.Application.UseCases.Recipe.Update
         private readonly IloggedUser _loggedUser;
         private readonly IMapper _mapper;
         public UpdateRecipeUseCase(IUnityOfWork unityOfWork,
-            IRecipeUpdateOnlyRepository repositoryRead,
+            IRecipeUpdateOnlyRepository repositoryUpdate,
             IMapper mapper,
         IloggedUser loggedUser)
         {
             _unityOfWork = unityOfWork;
-            _repositoryUpdate = repositoryRead;
+            _repositoryUpdate = repositoryUpdate;
             _loggedUser = loggedUser;
             _mapper = mapper;
         }
