@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System.Collections;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Query;
 using MyRecipeBook.Domain.Dtos;
 using MyRecipeBook.Domain.Entities;
@@ -59,6 +60,17 @@ namespace MyRecipeBook.Infrastructure.DataAccess.Repositories
               .Include(recipe => recipe.Ingredients)
               .Include(recipe => recipe.Instructions)
               .Include(recipe => recipe.DishTypes);
+        }
+        public async Task<IList<Recipe>> GetForDashboard(User user)
+        {
+            return await _dbContext
+                .Recipes
+                .AsNoTracking()
+                .Include(ingredients => ingredients.Ingredients)
+                .Where(recipe => recipe.Active && recipe.UserId == user.Id)
+                .OrderByDescending(recipe => recipe.CreatedOn)
+                .Take(2)
+                .ToListAsync();
         }
         public void Update(Recipe recipe) => _dbContext.Recipes.Update(recipe);
     }

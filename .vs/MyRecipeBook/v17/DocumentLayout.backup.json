@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "E:\\Git\\recipe-book-api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D643E103-1AF0-4418-A2DA-3942D6BD9948}|tests\\UseCases.Test\\UseCases.Test.csproj|e:\\git\\recipe-book-api\\tests\\usecases.test\\recipe\\update\\updaterecipeusecasetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D643E103-1AF0-4418-A2DA-3942D6BD9948}|tests\\UseCases.Test\\UseCases.Test.csproj|solutionrelative:tests\\usecases.test\\recipe\\update\\updaterecipeusecasetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F3F33243-78FD-4C0C-85A7-40E121F25E62}|src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj|e:\\git\\recipe-book-api\\src\\backend\\myrecipebook.api\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F33243-78FD-4C0C-85A7-40E121F25E62}|src\\Backend\\MyRecipeBook.API\\MyRecipeBook.API.csproj|solutionrelative:src\\backend\\myrecipebook.api\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D643E103-1AF0-4418-A2DA-3942D6BD9948}|tests\\UseCases.Test\\UseCases.Test.csproj|e:\\git\\recipe-book-api\\tests\\usecases.test\\recipe\\delete\\deleterecipeusecasetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D643E103-1AF0-4418-A2DA-3942D6BD9948}|tests\\UseCases.Test\\UseCases.Test.csproj|solutionrelative:tests\\usecases.test\\recipe\\delete\\deleterecipeusecasetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{540BAC00-30D7-4B46-AF5D-4E41DC9F62A5}|src\\Backend\\MyRecipeBook.Application\\MyRecipeBook.Application.csproj|e:\\git\\recipe-book-api\\src\\backend\\myrecipebook.application\\dependencyinjectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{540BAC00-30D7-4B46-AF5D-4E41DC9F62A5}|src\\Backend\\MyRecipeBook.Application\\MyRecipeBook.Application.csproj|solutionrelative:src\\backend\\myrecipebook.application\\dependencyinjectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{540BAC00-30D7-4B46-AF5D-4E41DC9F62A5}|src\\Backend\\MyRecipeBook.Application\\MyRecipeBook.Application.csproj|e:\\git\\recipe-book-api\\src\\backend\\myrecipebook.application\\usecases\\recipe\\dashboard\\getdashboardusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{540BAC00-30D7-4B46-AF5D-4E41DC9F62A5}|src\\Backend\\MyRecipeBook.Application\\MyRecipeBook.Application.csproj|solutionrelative:src\\backend\\myrecipebook.application\\usecases\\recipe\\dashboard\\getdashboardusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{540BAC00-30D7-4B46-AF5D-4E41DC9F62A5}|src\\Backend\\MyRecipeBook.Application\\MyRecipeBook.Application.csproj|e:\\git\\recipe-book-api\\src\\backend\\myrecipebook.application\\services\\automapper\\automapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{540BAC00-30D7-4B46-AF5D-4E41DC9F62A5}|src\\Backend\\MyRecipeBook.Application\\MyRecipeBook.Application.csproj|solutionrelative:src\\backend\\myrecipebook.application\\services\\automapper\\automapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32ACDF6-D86A-48A9-93CF-C5C2EDC6DC14}|src\\Backend\\MyRecipeBool.Infrastructure\\MyRecipeBook.Infrastructure.csproj|e:\\git\\recipe-book-api\\src\\backend\\myrecipebool.infrastructure\\dataaccess\\repositories\\reciperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32ACDF6-D86A-48A9-93CF-C5C2EDC6DC14}|src\\Backend\\MyRecipeBool.Infrastructure\\MyRecipeBook.Infrastructure.csproj|solutionrelative:src\\backend\\myrecipebool.infrastructure\\dataaccess\\repositories\\reciperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 169,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DeleteRecipeUseCaseTest.cs",
-              "DocumentMoniker": "E:\\Git\\recipe-book-api\\tests\\UseCases.Test\\Recipe\\Delete\\DeleteRecipeUseCaseTest.cs",
-              "RelativeDocumentMoniker": "tests\\UseCases.Test\\Recipe\\Delete\\DeleteRecipeUseCaseTest.cs",
-              "ToolTip": "E:\\Git\\recipe-book-api\\tests\\UseCases.Test\\Recipe\\Delete\\DeleteRecipeUseCaseTest.cs",
-              "RelativeToolTip": "tests\\UseCases.Test\\Recipe\\Delete\\DeleteRecipeUseCaseTest.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBEAAABaAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "AutoMapping.cs",
+              "DocumentMoniker": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBook.Application\\Services\\AutoMapper\\AutoMapping.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\MyRecipeBook.Application\\Services\\AutoMapper\\AutoMapping.cs",
+              "ToolTip": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBook.Application\\Services\\AutoMapper\\AutoMapping.cs",
+              "RelativeToolTip": "src\\Backend\\MyRecipeBook.Application\\Services\\AutoMapper\\AutoMapping.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T22:15:01.498Z",
+              "WhenOpened": "2025-08-28T21:56:32.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DependencyInjectionExtension.cs",
+              "DocumentMoniker": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBook.Application\\DependencyInjectionExtension.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\MyRecipeBook.Application\\DependencyInjectionExtension.cs",
+              "ToolTip": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBook.Application\\DependencyInjectionExtension.cs",
+              "RelativeToolTip": "src\\Backend\\MyRecipeBook.Application\\DependencyInjectionExtension.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowDMAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T21:46:52.079Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UpdateRecipeUseCaseTest.cs",
-              "DocumentMoniker": "E:\\Git\\recipe-book-api\\tests\\UseCases.Test\\Recipe\\Update\\UpdateRecipeUseCaseTest.cs",
-              "RelativeDocumentMoniker": "tests\\UseCases.Test\\Recipe\\Update\\UpdateRecipeUseCaseTest.cs",
-              "ToolTip": "E:\\Git\\recipe-book-api\\tests\\UseCases.Test\\Recipe\\Update\\UpdateRecipeUseCaseTest.cs",
-              "RelativeToolTip": "tests\\UseCases.Test\\Recipe\\Update\\UpdateRecipeUseCaseTest.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAXAAAAAAAAAA==",
+              "Title": "DashBoardController.cs",
+              "DocumentMoniker": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBook.API\\Controllers\\DashBoardController.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\MyRecipeBook.API\\Controllers\\DashBoardController.cs",
+              "ToolTip": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBook.API\\Controllers\\DashBoardController.cs",
+              "RelativeToolTip": "src\\Backend\\MyRecipeBook.API\\Controllers\\DashBoardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T20:18:32.929Z",
+              "WhenOpened": "2025-08-28T21:46:33.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RecipeRepository.cs",
+              "DocumentMoniker": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBool.Infrastructure\\DataAccess\\Repositories\\RecipeRepository.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\MyRecipeBool.Infrastructure\\DataAccess\\Repositories\\RecipeRepository.cs",
+              "ToolTip": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBool.Infrastructure\\DataAccess\\Repositories\\RecipeRepository.cs",
+              "RelativeToolTip": "src\\Backend\\MyRecipeBool.Infrastructure\\DataAccess\\Repositories\\RecipeRepository.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAmwD8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T21:21:52.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetDashboardUseCase.cs",
+              "DocumentMoniker": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBook.Application\\UseCases\\Recipe\\Dashboard\\GetDashboardUseCase.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\MyRecipeBook.Application\\UseCases\\Recipe\\Dashboard\\GetDashboardUseCase.cs",
+              "ToolTip": "E:\\Git\\recipe-book-api\\src\\Backend\\MyRecipeBook.Application\\UseCases\\Recipe\\Dashboard\\GetDashboardUseCase.cs",
+              "RelativeToolTip": "src\\Backend\\MyRecipeBook.Application\\UseCases\\Recipe\\Dashboard\\GetDashboardUseCase.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T21:10:05.08Z",
               "EditorCaption": ""
             }
           ]
