@@ -1,7 +1,5 @@
 # Meu Livro de Receitas
 
-![hero-project-image]
-
 ## Sobre o projeto
 
 **Meu Livro de Receitas** é uma API desenvolvida em **.NET** para gerenciamento de receitas culinárias.
