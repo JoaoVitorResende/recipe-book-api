@@ -1,55 +1,55 @@
-# Meu Livro de Receitas
+# My Cookbook
 
-## Sobre o projeto
+## About the project
 
-**Meu Livro de Receitas** é uma API desenvolvida em **.NET** para gerenciamento de receitas culinárias.
+**My Cookbook** is an API developed in **.NET** for managing culinary recipes.
 
-A aplicação permite que usuários se cadastrem, façam login e gerenciem suas próprias receitas de forma simples e organizada. Cada receita pode conter título, ingredientes, modo de preparo, tempo de preparo, nível de dificuldade e uma imagem ilustrativa.
+The application allows users to register, log in, and manage their own recipes in a simple and organized way. Each recipe can include a title, ingredients, preparation steps, cooking time, difficulty level, and an illustrative image.
 
-Além do CRUD de receitas, o projeto também aborda recursos comuns em aplicações reais, como autenticação com JWT, Refresh Token, login com Google, upload de imagens, integração com IA, mensageria, testes automatizados, pipelines CI/CD e análise de cobertura de código.
+In addition to the recipe CRUD, the project also covers common features found in real-world applications, such as JWT authentication, Refresh Tokens, Google Login, image uploads, AI integration, messaging, automated tests, CI/CD pipelines, and code coverage analysis.
 
-Este projeto foi criado com foco em boas práticas de desenvolvimento backend, organização de código e construção de uma API próxima do que é utilizado no mercado de trabalho.
+This project was built with a focus on backend development best practices, code organization, and creating an API close to what is used in the job market.
 
 ---
 
 ## Features
 
-- **Cadastro de usuários**  
-  Permite que usuários criem uma conta utilizando nome, e-mail e senha.
+- **User registration**  
+  Allows users to create an account using their name, email, and password.
 
-- **Autenticação segura**  
-  Implementação de autenticação com JWT e Refresh Token.
+- **Secure authentication**  
+  Implementation of JWT authentication and Refresh Tokens.
 
-- **Login com Google**  
-  Integração com autenticação via conta Google.
+- **Google Login**  
+  Integration with Google account authentication.
 
-- **Gerenciamento de receitas**  
-  Criação, edição, exclusão, listagem e filtro de receitas.
+- **Recipe management**  
+  Creation, editing, deletion, listing, and filtering of recipes.
 
-- **Upload de imagem**  
-  Permite adicionar uma imagem ilustrativa para cada receita.
+- **Image upload**  
+  Allows adding an illustrative image for each recipe.
 
-- **Integração com AI**  
-  Geração de receitas completas com imagens, com o apoio de inteligência artificial.
+- **AI Integration**  
+  Generation of complete recipes with images, powered by artificial intelligence.
 
-- **Mensageria**  
-  Uso de Azure Service Bus para processamento assíncrono, como exclusão de contas.
+- **Messaging**  
+  Use of Azure Service Bus for asynchronous processing, such as account deletion.
 
-- **Suporte a múltiplos bancos de dados**  
-  Compatível com MySQL e SQL Server.
+- **Multiple database support**  
+  Compatible with MySQL and SQL Server.
 
-- **Testes automatizados**  
-  Testes de unidade e testes de integração para garantir a qualidade da aplicação.
+- **Automated tests**  
+  Unit tests and integration tests to ensure application quality.
 
 - **CI/CD**  
-  Pipeline configurado no Azure DevOps com build, testes e análise de cobertura.
+  Pipeline configured in Azure DevOps featuring build, tests, and coverage analysis.
 
-- **Análise de cobertura de código**  
-  Visualização e interpretação da cobertura de testes para identificar partes do código que precisam de mais validação.
+- **Code coverage analysis**  
+  Visualization and interpretation of test coverage to identify parts of the code that need more validation.
 
 ---
 
-## Construído com
+## Built with
 
 ![badge-c#]
 ![badge-dot-net]
@@ -67,11 +67,11 @@ Este projeto foi criado com foco em boas práticas de desenvolvimento backend, o
 
 ---
 
-## Arquitetura
+## Architecture
 
-O projeto segue uma organização baseada em **Domain-Driven Design (DDD)**, com separação de responsabilidades entre as camadas da aplicação e os projetos compartilhados.
+The project follows an organization based on **Domain-Driven Design (DDD)**, with a separation of concerns between the application layers and shared projects.
 
-A estrutura principal da solução é organizada da seguinte forma:
+The main structure of the solution is organized as follows:
 
 ```txt
 src/
@@ -91,67 +91,67 @@ tests/
  └── WebApi.Tests/
 ```
 
-### Principais responsabilidades
+### Main responsibilities
 
 #### Backend
 
-Contém os projetos principais da API e concentra as regras, fluxos e integrações da aplicação.
+Contains the main projects of the API and concentrates the application rules, workflows, and integrations.
 
 - **API**
-  Responsável por expor os endpoints, configurar middlewares, autenticação, documentação com Swagger e inicialização da aplicação.
+  Responsible for exposing endpoints, configuring middlewares, authentication, Swagger documentation, and application startup.
 
 - **Application**
-  Contém os casos de uso da aplicação (Regras de negócio) com as validações e transormações necessárias para executar os fluxos do sistema.
+  Contains the application use cases (Business rules) with the necessary validations and transformations to execute the system workflows.
 
 - **Domain**
-  Contém entidades e contratos principais.
+  Contains entities and core contracts.
 
 - **Infrastructure**
-  Responsável por implementações externas, como acesso ao banco de dados, serviços de autenticação, envio de e-mails, integrações e persistência.
+  Responsible for external implementations, such as database access, authentication services, email sending, integrations, and persistence.
 
 #### Shared
 
-Contém projetos compartilhados que podem ser utilizados por diferentes partes da solução.
+Contains shared projects that can be used by different parts of the solution.
 
 - **Communication**
-  Contém os objetos utilizados na comunicação da API, como requests, responses e contratos de entrada e saída.
+  Contains the objects used in API communication, such as requests, responses, and inbound/outbound contracts.
 
 - **Exception**
-  Centraliza as exceções personalizadas e estruturas relacionadas ao tratamento de erros da aplicação.
+  Centralizes custom exceptions and structures related to application error handling.
 
 #### Tests
 
-Contém os projetos responsáveis por validar o comportamento da aplicação em diferentes níveis.
+Contains the projects responsible for validating the application behavior at different levels.
 
 - **UseCases.Tests**
-  Contém testes voltados para os casos de uso da aplicação, validando regras, fluxos e comportamentos da camada de Application.
+  Contains tests focused on the application use cases, validating rules, workflows, and behaviors of the Application layer.
 
 - **Validators.Tests**
-  Contém testes específicos para as validações da aplicação, garantindo que os dados de entrada sejam avaliados corretamente.
+  Contains specific tests for application validations, ensuring that input data is correctly evaluated.
 
 - **WebApi.Tests**
-  Contém testes de integração da API, o comportamento real da API, incluindo banco de dados e configurações da aplicação.
+  Contains API integration tests, validating the real behavior of the API, including database and application configurations.
 
-## CI/CD e qualidade de código
+## CI/CD and code quality
 
-O projeto utiliza **Azure DevOps Pipelines** para automatizar etapas importantes do desenvolvimento, como:
+The project uses **Azure DevOps Pipelines** to automate important development steps, such as:
 
-- Restore dos pacotes
-- Build da solução
-- Execução dos testes
-- Publicação da cobertura de testes
-- Publicação da imagem Docker com a API no Azure Container Registry
+- Package restore
+- Solution build
+- Test execution
+- Test coverage publishing
+- Docker image publishing with the API to Azure Container Registry
 
-## Como executar o projeto
+## How to run the project
 
-Para executar o projeto localmente, siga os passos abaixo.
+To run the project locally, follow the steps below.
 
-### Requisitos
+### Prerequisites
 
-- Visual Studio 2026 ou Rider
+- Visual Studio 2026 or Rider
 - .NET SDK
 - Docker Desktop
-- MySQL Server ou SQL Server
+- MySQL Server or SQL Server
 - Git
 
 ---
