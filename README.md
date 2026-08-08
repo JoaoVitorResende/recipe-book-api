@@ -14,47 +14,6 @@ Este projeto foi criado com foco em boas práticas de desenvolvimento backend, o
 
 ---
 
-## Curso na Udemy
-
-### [.NET Core: um curso orientado para o mercado de trabalho][curso-udemy]
-
-Este repositório faz parte do curso **.NET Core: um curso orientado para o mercado de trabalho**, disponível na Udemy.
-
-Durante o curso, construímos uma API completa do zero, passando por arquitetura, banco de dados, autenticação, testes, Docker, Azure DevOps, pipelines, SonarCloud e boas práticas de desenvolvimento.
-
-O curso é indicado para pessoas que já possuem conhecimento em lógica de programação e C#, e querem aprender a desenvolver APIs mais completas, organizadas e preparadas para cenários reais.
-
-Para acessar o curso, clique [neste link][curso-udemy].
-
-![hero-course-image]
-
----
-
-## O que você vai aprender no curso
-
-Durante o curso, você aprenderá a:
-
-- Criar uma API REST com .NET
-- Estruturar uma solução usando conceitos de DDD
-- Aplicar princípios de SOLID
-- Trabalhar com Entity Framework
-- Criar cadastro e autenticação de usuários
-- Implementar JWT e Refresh Token
-- Integrar login com Google
-- Criar CRUD completo de receitas
-- Fazer upload de imagens
-- Integrar a API com AI
-- Utilizar mensageria com Azure Service Bus
-- Criar testes de unidade
-- Criar testes de integração
-- Usar Testcontainers para os testes de integração
-- Configurar Docker no ambiente de desenvolvimento
-- Criar pipelines no Azure DevOps
-- Publicar cobertura de testes no pipeline
-- Organizar o desenvolvimento usando práticas de SCRUM
-
----
-
 ## Features
 
 - **Cadastro de usuários**  
@@ -199,71 +158,9 @@ Para executar o projeto localmente, siga os passos abaixo.
 
 ---
 
-## Instalação
-
-Clone o repositório:
-
-```sh
-git clone https://github.com/welissonArley/MyRecipeBook.git
-```
-
-Acesse a pasta do projeto:
-
-```sh
-cd MyRecipeBook
-```
-
-Configure o arquivo `appsettings.Development.json` com as informações necessárias, como conexão com banco de dados, JWT, Google, Azure Service Bus e OpenAI, conforme os recursos que deseja executar.
-
-Depois, execute a API pelo Visual Studio ou usando o comando:
-
-```sh
-dotnet run
-```
-
-Acesse a documentação da API pelo Swagger:
-
-```txt
-https://localhost:7070/swagger
-```
-
----
-
-## Executando os testes
-
-Para executar todos os testes da solução:
-
-```sh
-dotnet test
-```
-
-Para os testes de integração, certifique-se de que o Docker esteja em execução.
-
----
-
-## Licença
-
-Este projeto está disponível para fins de estudo e aprendizado.
-
-A distribuição, revenda ou uso comercial do conteúdo do curso e dos materiais associados não é permitida sem autorização.
-
----
-
-## Autor
-
-Criado por **Welisson Arley**.
-
-Desenvolvedor .NET, mentor e instrutor, com experiência em desenvolvimento backend, arquitetura de software, APIs, testes automatizados, Azure DevOps e boas práticas de desenvolvimento.
-
----
-
 <!-- Links -->
 [dot-net-sdk]: https://dotnet.microsoft.com/en-us/download/dotnet/10.0
 [curso-udemy]: https://www.udemy.com/course/net-core-curso-orientado-para-mercado-de-trabalho/?referralCode=C0850BF224055DE39722
-
-<!-- Images -->
-[hero-project-image]: images/heroProjectImage.png
-[hero-course-image]: images/heroCourseImage.png
 
 <!-- Badges -->
 [badge-c#]: https://custom-icon-badges.demolab.com/badge/C%23-%23239120.svg?logo=cshrp&logoColor=white&style=for-the-badge
